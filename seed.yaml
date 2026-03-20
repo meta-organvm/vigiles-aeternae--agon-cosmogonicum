@@ -1,0 +1,28 @@
+organ: META
+name: vigiles-aeternae--agon-cosmogonicum
+tier: standard
+status: LOCAL
+description: >
+  Mythological governance simulation engine. The Colosseum where competing
+  cosmological regimes audit the real ORGANVM system, generating constitutional
+  law from consensus and divergence data from disagreement.
+produces:
+  - target: all-organs
+    type: constitutional-law
+  - target: meta-organvm/praxis-perpetua
+    type: governance-standards
+  - target: meta-organvm/organvm-engine
+    type: audit-lenses
+consumes:
+  - source: organvm-i-theoria/vigiles-aeternae--corpus-mythicum
+    type: regime-specifications
+  - source: organvm-ii-poiesis/vigiles-aeternae--theatrum-mundi
+    type: narrative-scenarios
+  - source: meta-organvm/organvm-corpvs-testamentvm
+    type: registry-state
+  - source: meta-organvm/organvm-ontologia
+    type: entity-identity
+subscriptions:
+  - event: regime.cycle.complete
+  - event: constitutional.candidate.proposed
+  - event: regime.phaethon.triggered
