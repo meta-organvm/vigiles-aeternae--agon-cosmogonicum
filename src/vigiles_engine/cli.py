@@ -20,6 +20,7 @@ from .auditor import run_audit
 from .chronicle import read_chronicle, record_cycle
 from .consensus import find_consensus
 from .divergence import analyze_divergence
+from .phaethon import detect_phaethon
 from .regime import Regime, load_all_regimes
 from .reporter import render_divergence_report, render_report
 
@@ -64,14 +65,34 @@ def cmd_run(args: argparse.Namespace) -> None:
     # Record in chronicle
     chronicle_path = record_cycle(chronicles_dir, report, summoned_by="cli")
 
+    # Check for Phaethon
+    phaethon_warning = detect_phaethon(regime, report)
+
     if args.json:
-        print(json.dumps({
+        result = {
             "regime": report.regime_cosmology,
             "findings": report.summary,
             "chronicle": str(chronicle_path),
-        }, indent=2))
+        }
+        if phaethon_warning:
+            result["phaethon"] = {
+                "severity": phaethon_warning.severity,
+                "risk": phaethon_warning.risk,
+                "corrective": phaethon_warning.corrective_regime,
+                "evidence_count": len(phaethon_warning.evidence),
+            }
+        print(json.dumps(result, indent=2))
     else:
         print(render_report(regime, report))
+        if phaethon_warning:
+            print(f"\n{'='*60}")
+            print(f"PHAETHON WARNING [{phaethon_warning.severity.upper()}]")
+            print(f"{'='*60}")
+            print(f"This regime's declared blind spot is manifesting.")
+            print(f"Risk: {phaethon_warning.risk[:200]}")
+            print(f"Evidence: {len(phaethon_warning.evidence)} findings match the symptom pattern")
+            print(f"Corrective: summon the {phaethon_warning.corrective_regime} regime")
+            print(f"{'='*60}")
         print(f"\nChronicle recorded: {chronicle_path}")
 
 
