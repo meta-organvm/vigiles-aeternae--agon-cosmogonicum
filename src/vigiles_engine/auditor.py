@@ -100,7 +100,7 @@ def check_seed_mandate_alignment(
                 rule_check=rule.check,
                 severity=rule.severity,
                 target=f"{organ_key}/{repo_name}",
-                description=f"No implementation_status declared — mandate unclear",
+                description="No implementation_status declared — mandate unclear",
                 regime="",  # filled by caller
             ))
     return findings
@@ -121,7 +121,9 @@ def check_promotion_readiness(
                     rule_check=rule.check,
                     severity=rule.severity,
                     target=f"{organ_key}/{repo['name']}",
-                    description=f"Status {status} but no CI workflow — promoted without verification?",
+                    description=(
+                        f"Status {status} but no CI workflow — promoted without verification?"
+                        ),
                     regime="",
                 ))
             if status == "GRADUATED" and not repo.get("platinum_status"):
@@ -129,7 +131,7 @@ def check_promotion_readiness(
                     rule_check=rule.check,
                     severity="medium",
                     target=f"{organ_key}/{repo['name']}",
-                    description=f"GRADUATED without platinum_status — is this genuinely complete?",
+                    description="GRADUATED without platinum_status — is this genuinely complete?",
                     regime="",
                 ))
     return findings
@@ -195,7 +197,9 @@ def check_pressure_accumulation(
                         rule_check=rule.check,
                         severity="medium",
                         target=f"{organ_key}/{repo['name']}",
-                        description=f"Active at {repo['promotion_status']} — pressure accumulating without promotion path",
+                        description=(
+                            f"Active at {repo['promotion_status']} — pressure accumulating without promotion path"
+                            ),
                         regime="",
                     ))
     return findings

@@ -6,7 +6,6 @@ The Witnesses' function in code. Every cycle is immutably recorded.
 from __future__ import annotations
 
 import json
-from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 

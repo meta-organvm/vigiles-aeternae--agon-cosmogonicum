@@ -21,7 +21,7 @@ from .chronicle import read_chronicle, record_cycle
 from .consensus import find_consensus
 from .divergence import analyze_divergence
 from .phaethon import detect_phaethon
-from .regime import Regime, load_all_regimes
+from .regime import load_all_regimes
 from .reporter import render_divergence_report, render_report
 
 
@@ -88,7 +88,7 @@ def cmd_run(args: argparse.Namespace) -> None:
             print(f"\n{'='*60}")
             print(f"PHAETHON WARNING [{phaethon_warning.severity.upper()}]")
             print(f"{'='*60}")
-            print(f"This regime's declared blind spot is manifesting.")
+            print("This regime's declared blind spot is manifesting.")
             print(f"Risk: {phaethon_warning.risk[:200]}")
             print(f"Evidence: {len(phaethon_warning.evidence)} findings match the symptom pattern")
             print(f"Corrective: summon the {phaethon_warning.corrective_regime} regime")
@@ -198,7 +198,7 @@ def cmd_orders_show(args: argparse.Namespace) -> None:
             print(f"\n**Constraint:** {order['constraint']}")
             print(f"\n**Failure Mode:** {order['failure_mode']}")
             print(f"\n**RPG Class:** {order['rpg']['class']} — {order['rpg']['description']}")
-            print(f"\n**System Functions:**")
+            print("\n**System Functions:**")
             for fn in order["system_functions"]:
                 print(f"  - {fn}")
             print(f"\n**Voice:** {order['narrative']['voice']}")

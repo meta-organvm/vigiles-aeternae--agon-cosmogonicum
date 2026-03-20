@@ -34,8 +34,8 @@ def render_report(regime: Regime, report: AuditReport) -> str:
     # Summary
     lines.append("## Findings Summary")
     lines.append("")
-    lines.append(f"| Severity | Count |")
-    lines.append(f"|----------|-------|")
+    lines.append("| Severity | Count |")
+    lines.append("|----------|-------|")
     for sev in ("critical", "high", "medium", "low"):
         count = report.summary.get(sev, 0)
         if count > 0:
