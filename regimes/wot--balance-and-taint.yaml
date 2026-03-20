@@ -1,0 +1,81 @@
+regime:
+  name: Balance and Taint
+  latin: Regimen Aequilibrii et Corruptionis
+  cosmology: wot
+  version: "1.0.0"
+  philosophy: >
+    Reality is woven from complementary forces. Neither force is superior;
+    both are incomplete alone. The fundamental law is balance. Any imbalance
+    introduces instability into the Pattern. Corruption (the Taint) is not
+    external evil — it is the consequence of imbalance accumulated over time.
+    The Breaking happens not from malice but from madness born of asymmetry.
+
+  priorities:
+    complementary_balance: 10
+    taint_detection: 9
+    institutional_mediation: 8
+    cyclical_renewal: 7
+    gender_of_forces: 6
+    pattern_fidelity: 8
+
+  violations:
+    - violation_id: force_imbalance
+      description: "One complementary force (creation/destruction, build/test, etc.) dominating its pair"
+    - violation_id: taint_accumulation
+      description: "Corruption accumulating silently — technical debt, skipped tests, deferred fixes that compound"
+    - violation_id: institutional_arrogance
+      description: "Aes Sedai syndrome — the mediating institution believes it IS the balance rather than serving it"
+    - violation_id: breaking_risk
+      description: "System approaching catastrophic failure because accumulated taint has reached critical mass"
+
+  health_model:
+    healthy: >
+      Complementary forces in dynamic equilibrium. Institutions mediating
+      but not dominating. The Pattern weaving cleanly. Both halves contributing.
+    stressed: >
+      One force straining. The Taint accumulating in one domain.
+      Institutions starting to believe their own authority is the source
+      of balance rather than a servant of it.
+    critical: >
+      Breaking state — the Taint has reached critical mass. Male channelers
+      going mad. The system is tearing itself apart from accumulated
+      imbalance that was too long ignored.
+
+  phaethon:
+    risk: >
+      Binary thinking. Reducing everything to two opposing forces and
+      missing the complexity that exists outside the duality. Also:
+      assuming balance means stasis — true balance is dynamic, not frozen.
+    symptom: >
+      Everything categorized as either/or. No room for ambiguity or
+      hybrid approaches. The system becomes rigid in its insistence
+      on "balance" and paradoxically creates imbalance through enforcement.
+    corrective_regime: zelda
+
+  audit_rules:
+    - check: force_equilibrium
+      description: "Are complementary activities (building/testing, creating/maintaining) in balance?"
+      severity: critical
+    - check: silent_taint_accumulation
+      description: "Is technical debt, test coverage erosion, or documentation decay compounding silently?"
+      severity: critical
+    - check: institutional_humility
+      description: "Do governance structures serve the system or have they become self-serving?"
+      severity: high
+    - check: renewal_cycle_active
+      description: "Is the system periodically renewing itself, or coasting on past momentum?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Epic, sweeping, slightly ponderous. The voice of a historian
+      recording the turning of an Age. Robert Jordan's measured cadence.
+    aesthetic: >
+      Woven tapestry. The Wheel turning. Channeling light. Ancient symbols
+      on standing stones. The White Tower at dawn.
+    soundtrack: >
+      Interlocking melodic lines — two themes that complement and clash.
+      Modal counterpoint. The sound of weaving.
+    character_archetype: >
+      The channeler who must use a power that is slowly driving them mad,
+      knowing the alternative is worse.

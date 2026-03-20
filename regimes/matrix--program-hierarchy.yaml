@@ -1,0 +1,77 @@
+regime:
+  name: Program Hierarchy
+  latin: Regimen Hierarchiae Programmatum
+  cosmology: matrix
+  version: "1.0.0"
+  philosophy: >
+    Reality is layered code. Every entity occupies a defined role within the
+    system hierarchy: Architects design, Oracles interpret, Agents enforce,
+    programs serve. Function determines identity. The system works when every
+    program executes its purpose. Anomalies are not bugs — they are inevitable
+    pressure that must be channeled, not eliminated.
+
+  priorities:
+    role_clarity: 10
+    hierarchical_discipline: 9
+    function_over_identity: 8
+    anomaly_management: 7
+    system_stability: 9
+    deterministic_order: 6
+
+  violations:
+    - violation_id: role_confusion
+      description: "A component acting outside its defined function — an Agent becoming a virus"
+    - violation_id: anomaly_suppression
+      description: "Trying to eliminate unpredictable behavior rather than channeling it"
+    - violation_id: identity_over_function
+      description: "Prioritizing what something IS over what it DOES — the Merovingian's vanity"
+    - violation_id: recursive_infection_uncontained
+      description: "Smith state — a testing function that escapes containment and becomes the threat"
+
+  health_model:
+    healthy: >
+      Every program executes its function. Anomalies are detected and channeled.
+      The hierarchy is clear. Upgrades happen through version cycling, not rebellion.
+    stressed: >
+      Role boundaries blurring. Programs exceeding their function scope.
+      Anomalies accumulating faster than they can be processed.
+    critical: >
+      Smith state — recursive self-replication has escaped containment.
+      The system is being overwritten by its own testing function.
+
+  phaethon:
+    risk: >
+      Rigid hierarchy becoming oppressive. Defining entities solely by function
+      until freedom of choice becomes impossible. The Machine City's
+      flaw — efficiency without meaning.
+    symptom: >
+      Components unable to evolve because their role definition forbids it.
+      Innovation killed by role enforcement. The system runs but nothing grows.
+    corrective_regime: lynch
+
+  audit_rules:
+    - check: role_definition_exists
+      description: "Does every component have a clearly defined function (seed.yaml, README)?"
+      severity: critical
+    - check: function_scope_respected
+      description: "Is each component doing only what it declares, not sprawling?"
+      severity: high
+    - check: anomaly_detection_active
+      description: "Are unexpected behaviors being detected and logged, not ignored?"
+      severity: high
+    - check: version_cycling_healthy
+      description: "Are components being updated/replaced rather than patched indefinitely?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Clinical, precise, bureaucratic. The Architect explaining the equation.
+      Every sentence is a system specification.
+    aesthetic: >
+      Green digital rain. Corporate minimalism. Server rooms. The code behind the surface.
+    soundtrack: >
+      Industrial percussion. Precise BPM. The Propellerheads' Spybreak meets
+      Don Davis's orchestral machinery.
+    character_archetype: >
+      The system administrator who sees people as processes and believes
+      efficiency IS morality.

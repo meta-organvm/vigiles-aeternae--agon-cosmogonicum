@@ -1,0 +1,81 @@
+regime:
+  name: Distributed Truth
+  latin: Regimen Veritatis Distributae
+  cosmology: one-piece
+  version: "1.0.0"
+  philosophy: >
+    No single authority possesses the truth. Truth is fragmented across
+    Poneglyphs (stone-encoded memory), oral traditions, suppressed archives,
+    and embodied myths. Each source is biased, partial, or deliberately
+    corrupted. The truth must be RECONSTRUCTED, not consumed. Power becomes
+    "mythically heavy" not through force but through narrative authority —
+    the weight of a dream that others choose to follow.
+
+  priorities:
+    distributed_knowledge: 10
+    narrative_authority: 9
+    reconstruction_over_consumption: 8
+    dream_fidelity: 7
+    freedom_as_organizing_principle: 9
+
+  violations:
+    - violation_id: centralized_truth_claim
+      description: "Any single entity claiming to be the sole source of truth — World Government syndrome"
+    - violation_id: history_suppression
+      description: "Actively hiding or destroying records — the Void Century coverup"
+    - violation_id: dream_abandonment
+      description: "Giving up on the vision because the journey is too long or hard"
+    - violation_id: power_without_narrative
+      description: "Accumulating strength without a story that gives it meaning"
+
+  health_model:
+    healthy: >
+      Knowledge distributed across many sources. Multiple perspectives
+      coexisting. The dream is alive and people are moving toward it.
+      No one entity controls the narrative.
+    stressed: >
+      Knowledge consolidating in too few hands. Alternative perspectives
+      being suppressed. The dream fading to pragmatism.
+    critical: >
+      World Government state — history is actively being rewritten.
+      Dissenters are eliminated. The truth exists only in stone that
+      no one can read.
+
+  phaethon:
+    risk: >
+      Naive optimism. Believing that distributed truth will self-organize
+      without effort. Freedom without structure becomes chaos. The Straw
+      Hat crew works because of Luffy's dream — without a unifying vision,
+      distributed truth is just noise.
+    symptom: >
+      Many voices, no coherence. Documentation scattered across too many
+      locations with no synthesis. Everyone has a piece, no one has the map.
+    corrective_regime: tolkien
+
+  audit_rules:
+    - check: knowledge_distribution
+      description: "Is critical knowledge accessible from multiple sources, not locked in one?"
+      severity: critical
+    - check: history_preservation
+      description: "Are records being maintained, not deleted or overwritten?"
+      severity: critical
+    - check: narrative_coherence
+      description: "Despite distribution, does the system tell a coherent story about what it is?"
+      severity: high
+    - check: dream_fidelity
+      description: "Is the founding vision still guiding decisions, or has it been forgotten?"
+      severity: high
+
+  narrative:
+    voice: >
+      Exuberant, defiant, laughing in the face of impossible odds.
+      Luffy declaring war on the World Government with a smile.
+    aesthetic: >
+      Open sea. Weathered maps. Jolly Rogers. Stone tablets in ancient ruins.
+      The horizon line — always something beyond.
+    soundtrack: >
+      Adventure themes with melancholic undertow. Shanks' farewell.
+      Festival drums and sea chanties. Overtone singing across open water.
+    character_archetype: >
+      The captain who cannot navigate, cannot cook, cannot lie, but whose
+      dream is so powerful that the greatest people alive choose to follow it.

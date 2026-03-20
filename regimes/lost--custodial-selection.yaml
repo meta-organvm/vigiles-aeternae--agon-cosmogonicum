@@ -1,0 +1,82 @@
+regime:
+  name: Custodial Selection
+  latin: Regimen Selectionis Custodialis
+  cosmology: lost
+  version: "1.0.0"
+  philosophy: >
+    The system selects and tests. It draws candidates, subjects them to
+    suffering and choice, and either integrates or discards them. Meaning
+    is apophatic — defined by absence rather than revelation. Any system
+    that promises complete explanation is psychologically useful at best
+    and spiritually dangerous at worst. The Island does not explain itself.
+    It tests you and lets you decide what that means.
+
+  priorities:
+    selection_through_testing: 10
+    apophatic_meaning: 9
+    candidate_integration: 7
+    balance_over_justice: 8
+    permeability_to_meaning_collapse: 6
+
+  violations:
+    - violation_id: false_explanation
+      description: "Claiming to fully understand the system — the DHARMA Initiative's hubris"
+    - violation_id: candidate_coercion
+      description: "Forcing outcomes rather than arranging conditions for choice"
+    - violation_id: meaning_imposition
+      description: "Telling people what the system means rather than letting them discover it"
+    - violation_id: source_exploitation
+      description: "Attempting to harness the core power directly rather than stewarding it"
+
+  health_model:
+    healthy: >
+      The system tests components through real challenges. Components that
+      survive are integrated. The system does not explain itself — it lets
+      results speak. Candidates self-select through engagement.
+    stressed: >
+      Testing becoming arbitrary rather than purposeful. Candidates confused
+      about what success looks like. The system's silence becoming hostility
+      rather than invitation.
+    critical: >
+      Man in Black state — the system's testing function has been corrupted
+      from inside. What was meant to select now destroys. Entropy masquerading
+      as curation.
+
+  phaethon:
+    risk: >
+      Passivity disguised as wisdom. "The system will reveal itself in time"
+      becoming an excuse for never making decisions. The Island's silence
+      is only meaningful if someone eventually acts.
+    symptom: >
+      No clear success criteria. Components languish in testing forever.
+      "We're still evaluating" becomes permanent state. Nothing graduates
+      because nothing is ever definitively ready.
+    corrective_regime: jojo
+
+  audit_rules:
+    - check: testing_purposeful
+      description: "Are tests and quality gates serving a purpose, or just accumulating?"
+      severity: high
+    - check: candidate_clarity
+      description: "Do components know what 'success' looks like for promotion?"
+      severity: high
+    - check: explanation_humility
+      description: "Does documentation acknowledge what the system DOESN'T know?"
+      severity: medium
+    - check: integration_path_exists
+      description: "Is there a clear path from testing to integration, not just perpetual evaluation?"
+      severity: critical
+
+  narrative:
+    voice: >
+      Quiet, weighted, full of pauses. The voice of someone who has
+      seen too much and chosen not to explain. Jack Shephard at the bamboo grove.
+    aesthetic: >
+      Tropical ruin. Jungle reclaiming machinery. The hatch. Numbers
+      scratched into surfaces. The light at the heart of the Island.
+    soundtrack: >
+      Michael Giacchino's piano. Simple motifs that accumulate emotional
+      weight through repetition. The life-and-death theme.
+    character_archetype: >
+      The reluctant protector who never wanted the job but accepts it
+      because someone has to, and then discovers it was always meant to be them.

@@ -1,0 +1,77 @@
+regime:
+  name: Recursive Triadic
+  latin: Regimen Triadicum Recursivum
+  cosmology: zelda
+  version: "1.0.0"
+  philosophy: >
+    Three forces in eternal cycle: Power, Wisdom, Courage. The world is
+    defined by their balance. Evil is not an agent but a recurring attractor —
+    a persistent curse-pattern that re-manifests whenever balance decays.
+    Victory is never final; it is containment. The hero is an office, not
+    a personality. The cycle continues.
+
+  priorities:
+    triadic_balance: 10
+    cyclical_awareness: 9
+    containment_over_elimination: 8
+    inherited_obligation: 7
+    artifact_stewardship: 8
+
+  violations:
+    - violation_id: balance_collapse
+      description: "One force (Power, Wisdom, or Courage) dominating the other two"
+    - violation_id: permanence_illusion
+      description: "Believing a victory is final rather than a temporary containment"
+    - violation_id: hero_worship
+      description: "Personalizing the hero role instead of treating it as an office"
+    - violation_id: artifact_misuse
+      description: "Using governance tools for personal power rather than balance maintenance"
+
+  health_model:
+    healthy: >
+      Three aspects balanced. Roles rotating. Each cycle building on the last.
+      The Triforce held but not wielded.
+    stressed: >
+      One aspect gaining disproportionate weight. The cycle speeding up.
+      The seal weakening.
+    critical: >
+      Ganondorf state — Power unchecked, Wisdom locked away, Courage
+      untested. The cycle breaks and must restart from scratch.
+
+  phaethon:
+    risk: >
+      Fatalistic acceptance of cycles. "Evil always returns, so why fight?"
+      The cycle becoming an excuse for inaction rather than a framework
+      for preparation.
+    symptom: >
+      Known issues left unaddressed because "they'll come back anyway."
+      No preventive maintenance. Reactive-only governance.
+    corrective_regime: wot
+
+  audit_rules:
+    - check: triadic_balance
+      description: "Are the three pillars (creation/protection/testing or equivalent) balanced?"
+      severity: critical
+    - check: cycle_awareness
+      description: "Does the system acknowledge recurring patterns rather than treating each instance as novel?"
+      severity: high
+    - check: containment_integrity
+      description: "Are known risks contained, or just deferred?"
+      severity: high
+    - check: succession_planning
+      description: "Is there a next generation ready when the current cycle ends?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Heroic but tinged with melancholy. The voice of someone who has
+      saved the world and knows they'll have to do it again.
+    aesthetic: >
+      Green fields, ancient ruins, golden triangles. The Hyrule we always
+      return to — familiar but never exactly the same.
+    soundtrack: >
+      Koji Kondo. Ocarina melodies. Music box lullabies that contain
+      the entire history of the world in a simple theme.
+    character_archetype: >
+      The silent hero who wakes up, saves the world, and goes back to sleep
+      knowing the next hero is already being born.

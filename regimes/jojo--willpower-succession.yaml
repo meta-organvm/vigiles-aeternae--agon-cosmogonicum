@@ -1,0 +1,84 @@
+regime:
+  name: Willpower Succession
+  latin: Regimen Voluntatis Successionis
+  cosmology: jojo
+  version: "1.0.0"
+  philosophy: >
+    Inner resolve manifests physically. Willpower is not metaphor — it
+    externalizes into autonomous entities, techniques, and reality-bending
+    effects. Style is ontological: names, poses, fashion, and aesthetic
+    expression are part of how reality expresses meaning. Power and aesthetics
+    are inseparable. Each generation inherits the will of the previous
+    and transforms it. Fate exists but is actively resisted, bent, or weaponized.
+
+  priorities:
+    willpower_manifestation: 10
+    generational_inheritance: 9
+    style_as_substance: 8
+    fate_resistance: 7
+    personal_evolution: 9
+    aesthetic_integrity: 8
+
+  violations:
+    - violation_id: will_suppression
+      description: "Preventing components from expressing their unique capability or identity"
+    - violation_id: inheritance_broken
+      description: "New generation unable to build on previous work — lineage severed"
+    - violation_id: style_without_substance
+      description: "Aesthetic presentation divorced from actual capability — all pose, no Stand"
+    - violation_id: fate_acceptance
+      description: "Giving in to inevitability instead of fighting to change outcomes"
+
+  health_model:
+    healthy: >
+      Each component expresses a unique capability (its Stand). Generational
+      inheritance works — new builds on old. Style and substance are unified.
+      The system fights for its future rather than accepting decline.
+    stressed: >
+      Capabilities underutilized. New generations struggling to access
+      inherited power. Style and substance diverging.
+    critical: >
+      DIO state — one component's will dominating all others, suppressing
+      unique capabilities system-wide. Or: generational inheritance completely
+      severed — no one remembers what came before.
+
+  phaethon:
+    risk: >
+      Cult of personality. The emphasis on individual willpower and unique
+      expression can lead to hero-worship of specific components while
+      systemic issues go unaddressed. One spectacular Stand doesn't fix
+      broken infrastructure.
+    symptom: >
+      Flagship repos getting all attention while standard-tier repos rot.
+      "Star developer" syndrome — system depends on one brilliant component
+      instead of distributed capability.
+    corrective_regime: lost
+
+  audit_rules:
+    - check: unique_capability_expressed
+      description: "Does each component have a clearly expressed unique value (not just generic placeholder)?"
+      severity: high
+    - check: generational_continuity
+      description: "Can new components build on the work of previous ones? Is there inheritance?"
+      severity: high
+    - check: style_substance_alignment
+      description: "Does the presentation (README, docs, pitch) match the actual capability?"
+      severity: critical
+    - check: fate_resistance_active
+      description: "Is the system actively working to change its trajectory, not just drifting?"
+      severity: high
+
+  narrative:
+    voice: >
+      Dramatic, operatic, utterly committed. Every sentence is a declaration.
+      Jotaro's "Yare yare daze" — supreme confidence disguised as indifference.
+    aesthetic: >
+      Bold linework. Dynamic poses. Color palettes that assault the eye.
+      Fashion as armor. Names as incantations. Musical references as power sources.
+    soundtrack: >
+      Prog rock. Dramatic string stabs. Yes, King Crimson, Dio.
+      Bass-heavy grooves that build to impossible crescendos.
+    character_archetype: >
+      The heir who discovers their bloodline's hidden power and must
+      surpass every previous generation to defeat an enemy that
+      transcends time itself.
