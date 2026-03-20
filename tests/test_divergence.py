@@ -54,11 +54,11 @@ class TestAnalyzeDivergence:
         assert len(result.unique_findings.get("tolkien", [])) > 0
         assert len(result.unique_findings.get("malazan", [])) > 0
 
-    def test_all_nine_regimes_divergence(self):
-        """Running all 9 regimes should not crash."""
+    def test_all_regimes_divergence(self):
+        """Running all regimes should not crash."""
         if not REGIMES_DIR.exists() or not REGISTRY_PATH.exists():
             pytest.skip("Regimes or registry not found")
         regimes = load_all_regimes(REGIMES_DIR)
         reports = [run_audit(r, REGISTRY_PATH) for r in regimes.values()]
         result = analyze_divergence(reports)
-        assert len(result.regimes_compared) == 9
+        assert len(result.regimes_compared) == len(regimes)

@@ -1,0 +1,84 @@
+regime:
+  name: Covenantal Hierarchy
+  latin: Regimen Foederis Hierarchici
+  cosmology: abrahamic
+  version: "1.0.0"
+  philosophy: >
+    Governance emanates from the divine through defined hierarchical
+    levels, each mediating between the one above and below. The
+    governed agree to explicit contracts (covenants) specifying mutual
+    obligations. The Watchers' fall is the eternal warning: those
+    assigned to observe must never intervene, or the consequences
+    cascade catastrophically.
+
+  priorities:
+    hierarchical_mediation: 10
+    contractual_obligation: 9
+    emanation_flow: 8
+    watcher_discipline: 9
+    bureaucratic_clarity: 7
+
+  violations:
+    - violation_id: hierarchy_bypass
+      description: "Lower levels acting without mediation through proper channels"
+    - violation_id: covenant_breach
+      description: "Breaking the explicit contract (seed.yaml) between governance and governed"
+    - violation_id: watcher_intervention
+      description: "Observers intervening — the Grigori's fall"
+    - violation_id: emanation_blockage
+      description: "Information failing to flow down the hierarchy to those who need it"
+
+  health_model:
+    healthy: >
+      Hierarchy mediating cleanly. Covenants honored by both sides.
+      Watchers observing faithfully. Emanation flowing from source
+      through all levels to manifestation.
+    stressed: >
+      Mediation layers adding latency without value. Covenants
+      becoming one-sided. Watchers tempted to intervene.
+    critical: >
+      Babel state — communication between levels broken. Covenants
+      voided by one side. Watchers fallen. The hierarchy mediating
+      so perfectly that the governed can no longer reach the source.
+
+  phaethon:
+    risk: >
+      Bureaucratic ossification. The hierarchy mediating so perfectly
+      that the governed can no longer access the source. The nine
+      choirs filtering God's light until only darkness reaches the bottom.
+    symptom: >
+      Too many governance layers between decision and action. Context
+      files so heavily processed they no longer reflect reality. The
+      chain of mediation becoming a chain of distortion.
+    corrective_regime: african-yoruba
+
+  audit_rules:
+    - check: seed_mandate_alignment
+      description: "Is the covenant (seed.yaml) honored by both entity and system?"
+      severity: critical
+    - check: constraint_respect
+      description: "Are hierarchical boundaries respected? No level skipping?"
+      severity: high
+    - check: role_definition_exists
+      description: "Does each level of the hierarchy have a clear function?"
+      severity: high
+    - check: documentation_honesty
+      description: "Does emanated context (CLAUDE.md) accurately reflect the source?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Authoritative, liturgical, emanating from above. The voice of
+      Pseudo-Dionysius describing the celestial hierarchy — precise,
+      reverent, aware of the chain of being.
+    aesthetic: >
+      Cathedral light through stained glass. The Tree of Life (Sefirot).
+      Gold leaf on illuminated manuscripts. The tablets of the Law.
+    soundtrack: >
+      Choral polyphony. Palestrina and Pärt. The harmonics of the
+      Sefirot made audible — each level resonating at its proper
+      frequency. Sacred music as governance made sonic.
+    character_archetype: >
+      The angel who has mediated between heaven and earth for eternity
+      and has never once spoken its own opinion — only transmitted
+      the light from above.

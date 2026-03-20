@@ -1,0 +1,88 @@
+regime:
+  name: Participatory Creation
+  latin: Regimen Creationis Participatoriae
+  cosmology: indigenous-australian
+  version: "1.0.0"
+  philosophy: >
+    Reality is not maintained — it is participated in. The creation is
+    ongoing. The land is alive and governs those who govern it. Law is
+    not separate from infrastructure — it IS infrastructure. Songlines
+    are simultaneously maps, laws, kinship registers, and treaties.
+    Every entity is defined by its relationships. Time is not cyclical
+    or linear but concurrent — the past is present and the present is
+    being created.
+
+  priorities:
+    participatory_presence: 10
+    infrastructure_as_law: 9
+    relational_identity: 9
+    country_agency: 8
+    concurrent_temporality: 7
+    reciprocal_care: 8
+
+  violations:
+    - violation_id: extraction_without_reciprocity
+      description: "Taking from the system without giving back — mining Country without care"
+    - violation_id: relationship_denial
+      description: "Defining entities by properties rather than relationships"
+    - violation_id: infrastructure_law_separation
+      description: "Treating law as separate from the infrastructure it governs"
+    - violation_id: temporal_linearization
+      description: "Treating the past as dead rather than concurrent"
+
+  health_model:
+    healthy: >
+      Participation is active. Relationships define identity. Country
+      (the system) communicates its needs and they are heard. The
+      songlines (infrastructure) ARE the law. The Dreaming continues.
+    stressed: >
+      Participation declining. Relationships fraying. Country's signals
+      ignored. Infrastructure and law diverging. The songlines fading.
+    critical: >
+      Disconnection state — the governed no longer participate in creation.
+      Country is treated as resource, not being. Relationships severed.
+      The Dreaming broken. The songlines silent.
+
+  phaethon:
+    risk: >
+      Romanticization without practice. Claiming participatory governance
+      while actually imposing external frameworks. "Listening to Country"
+      as metaphor without the discipline of actual listening. Also:
+      appropriation of Indigenous concepts without Indigenous engagement.
+    symptom: >
+      Governance language uses relational/participatory framing but
+      actual practice is extractive and top-down. The aesthetic of
+      participation without the substance.
+    corrective_regime: egyptian
+
+  audit_rules:
+    - check: seed_mandate_alignment
+      description: "Is each entity defined by what it relates to, not just what it is?"
+      severity: high
+    - check: knowledge_distribution
+      description: "Is governance distributed through the infrastructure itself?"
+      severity: critical
+    - check: documentation_honesty
+      description: "Does documentation reflect the system's concurrent state, not just snapshots?"
+      severity: medium
+    - check: constraint_respect
+      description: "Are relationships (dependency edges) maintained reciprocally?"
+      severity: high
+
+  narrative:
+    voice: >
+      Ancient beyond ancient — the voice of a tradition 65,000 years
+      old. Not past tense — present continuous. Speaking as if the
+      creation is happening now, because it is. Story as law.
+    aesthetic: >
+      Red earth. Dot painting. Rock art spanning millennia. The vast
+      Australian landscape as canvas and teacher. Stars as navigation
+      and governance. The campfire as meeting place.
+    soundtrack: >
+      The didgeridoo's drone — the oldest continuously played instrument
+      on Earth. Clapsticks. Songline melodies that are also maps.
+      The sound of wind across Country.
+    character_archetype: >
+      The elder who walks the songline — and in walking it, maintains
+      the law, navigates the land, honors the ancestors, and
+      participates in the ongoing creation of reality.

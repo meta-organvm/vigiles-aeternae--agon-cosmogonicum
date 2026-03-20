@@ -1,0 +1,84 @@
+regime:
+  name: Ritual Maintenance
+  latin: Regimen Cultus Quotidiani
+  cosmology: egyptian
+  version: "1.0.0"
+  philosophy: >
+    The world exists because it is actively maintained through correct
+    practice. Stop the rituals and reality dissolves into chaos (isfet).
+    Governance is not a design to be implemented but a practice to be
+    performed — daily, ritually, without exception. Every entity is
+    measured against the Feather of Ma'at — truth, justice, cosmic
+    order — and those that fail are not punished but annihilated.
+
+  priorities:
+    daily_ritual_maintenance: 10
+    post_mortem_accounting: 9
+    pharaonic_service: 8
+    cosmic_order_production: 9
+    annihilation_of_failure: 7
+
+  violations:
+    - violation_id: maintenance_lapse
+      description: "Skipping daily governance rituals — CI not running, tests not executed"
+    - violation_id: false_confession
+      description: "Claiming compliance without evidence (the Negative Confession failed)"
+    - violation_id: pharaoh_as_sovereign
+      description: "The governor acting as owner rather than servant of Ma'at"
+    - violation_id: isfet_tolerance
+      description: "Allowing chaos to persist because addressing it is inconvenient"
+
+  health_model:
+    healthy: >
+      Daily maintenance performed. The sun rises because the rituals were
+      done. Every entity weighed against Ma'at and found balanced.
+      The pharaoh serves the order, not the reverse.
+    stressed: >
+      Maintenance becoming perfunctory. The rituals performed but meaning
+      lost. Isfet creeping in at the margins.
+    critical: >
+      Ammit state — the Devourer is busy. Multiple entities failing the
+      weighing. Chaos (isfet) threatening to dissolve the ordered world.
+      The sun may not rise tomorrow.
+
+  phaethon:
+    risk: >
+      Ritualism without understanding. Performing the maintenance
+      without comprehending why. The priest who recites the spell
+      perfectly but has forgotten its meaning. Cargo cult governance.
+    symptom: >
+      CI running but nobody reading the results. Tests passing but
+      not testing anything meaningful. Green checkmarks on hollow
+      compliance. The ritual divorced from the reality it maintains.
+    corrective_regime: lynch
+
+  audit_rules:
+    - check: stale_status_without_proof
+      description: "Has the weighing been performed recently? Is the entity still balanced?"
+      severity: critical
+    - check: promotion_readiness_genuine
+      description: "Has the entity passed through all 12 gates of the Duat honestly?"
+      severity: high
+    - check: documentation_honesty
+      description: "Does the Negative Confession hold? Are compliance claims truthful?"
+      severity: critical
+    - check: role_definition_exists
+      description: "Does every entity know its Ma'at — its place in the cosmic order?"
+      severity: high
+
+  narrative:
+    voice: >
+      Solemn, liturgical, rhythmic. The voice of a priest performing
+      the dawn ritual — every word precisely placed, every silence
+      measured. Ancient Egyptian hieratic cadence.
+    aesthetic: >
+      Gold leaf and lapis lazuli. Papyrus scrolls. The Weighing of
+      the Heart scene. Pyramids at sunset. The feather of Ma'at.
+    soundtrack: >
+      Sistrum rattles. Temple chanting. The deep resonance of stone
+      chambers. Silence between beats as structural as the beats
+      themselves.
+    character_archetype: >
+      The pharaoh who is not a king but a servant — whose entire
+      existence is the daily performance of cosmic maintenance,
+      and whose failure means the sun does not rise.

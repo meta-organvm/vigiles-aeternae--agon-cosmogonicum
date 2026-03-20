@@ -40,13 +40,14 @@ class TestRegimeFromYaml:
         assert regime.cosmology == "malazan"
         assert regime.phaethon.corrective_regime == "tolkien"
 
-    def test_load_all_nine(self):
+    def test_load_all_nineteen(self):
         if not REGIMES_DIR.exists():
             pytest.skip("Regimes directory not found")
         regimes = load_all_regimes(REGIMES_DIR)
-        assert len(regimes) == 9
-        expected = {"tolkien", "malazan", "matrix", "lynch", "zelda", "wot", "one-piece", "lost", "jojo"}
-        assert set(regimes.keys()) == expected
+        assert len(regimes) == 19
+        expected_subset = {"tolkien", "malazan", "matrix", "lynch", "zelda", "wot", "one-piece", "lost", "jojo"}
+        research_additions = {"greek-roman", "marvel-cosmic", "hindu-buddhist", "norse", "egyptian", "mesoamerican", "african-yoruba", "abrahamic", "daoist", "indigenous-australian"}
+        assert expected_subset | research_additions == set(regimes.keys())
 
     def test_all_regimes_have_phaethon(self):
         if not REGIMES_DIR.exists():

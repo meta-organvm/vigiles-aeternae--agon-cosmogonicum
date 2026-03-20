@@ -1,0 +1,80 @@
+regime:
+  name: Hierarchical Jurisdiction
+  latin: Regimen Iurisdictionis Hierarchicae
+  cosmology: marvel-cosmic
+  version: "1.0.0"
+  philosophy: >
+    The cosmos is governed by a bureaucracy of abstract entities, each
+    with a single defined function. The system works through separation
+    of concerns — no entity does more than one thing. Failure occurs
+    when jurisdictions are crossed, when entities accumulate functions
+    beyond their mandate, or when threats emerge from outside the
+    governance framework entirely.
+
+  priorities:
+    jurisdictional_clarity: 10
+    separation_of_concerns: 9
+    hierarchical_respect: 8
+    single_responsibility: 9
+    external_threat_awareness: 7
+
+  violations:
+    - violation_id: jurisdiction_crossing
+      description: "An entity performing functions outside its defined role"
+    - violation_id: function_accumulation
+      description: "One entity absorbing multiple roles — Thanos with all Infinity Gems"
+    - violation_id: hierarchy_bypass
+      description: "Lower tiers acting without mediation through proper channels"
+    - violation_id: external_blindness
+      description: "Failing to detect threats from outside the governance framework"
+
+  health_model:
+    healthy: >
+      Every entity executes its single function. Hierarchy mediates properly.
+      No jurisdiction overlaps. External scanning active.
+    stressed: >
+      Jurisdictions blurring. Entities accumulating secondary functions.
+      The hierarchy straining under edge cases it wasn't designed for.
+    critical: >
+      Thanos state — one entity holding all functions simultaneously.
+      Or Beyonder state — the entire hierarchy destroyed by an external force.
+
+  phaethon:
+    risk: >
+      Rigidity creating gaps. The spaces between defined jurisdictions
+      where no entity has authority. Also: inability to respond to threats
+      from outside the hierarchy entirely.
+    symptom: >
+      Edge cases falling through cracks. No entity responsible for novel
+      situations. The hierarchy works perfectly for known problems and
+      fails completely for unknown ones.
+    corrective_regime: malazan
+
+  audit_rules:
+    - check: role_definition_exists
+      description: "Does every component have a clearly defined single function?"
+      severity: critical
+    - check: seed_mandate_alignment
+      description: "Is each component doing only what it declares?"
+      severity: high
+    - check: single_point_of_failure
+      description: "Is any one component carrying disproportionate load?"
+      severity: critical
+    - check: knowledge_distribution
+      description: "Is critical function distributed or centralized?"
+      severity: high
+
+  narrative:
+    voice: >
+      Cosmic, detached, speaking from the perspective of entities who
+      measure time in eons. Jack Kirby's prose — bold, declarative,
+      inscribed in stone across the void.
+    aesthetic: >
+      Kirby Krackle. Celestial architecture. The vastness of space with
+      impossibly detailed cosmic machinery. Gold, purple, cosmic energy.
+    soundtrack: >
+      Orchestral science fiction. John Williams meets Vangelis.
+      The sound of creation machinery operating at galactic scale.
+    character_archetype: >
+      The cosmic bureaucrat who has administered reality for a billion
+      years and finds it increasingly difficult to care about individual cases.

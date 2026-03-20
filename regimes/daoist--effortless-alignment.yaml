@@ -1,0 +1,86 @@
+regime:
+  name: Effortless Alignment
+  latin: Regimen Congruae Facilitatis
+  cosmology: daoist
+  version: "1.0.0"
+  philosophy: >
+    The best governance is the governance no one notices. Wu wei —
+    effortless action through perfect alignment with the system's
+    natural flow. The governor who must force is already failing.
+    Water does not compete yet overcomes everything. The Dao that
+    can be codified is not the eternal Dao — but the system can
+    be aligned with what cannot be named.
+
+  priorities:
+    invisible_governance: 10
+    natural_alignment: 9
+    soft_persistence: 8
+    trajectory_awareness: 8
+    absence_of_findings: 7
+    ego_dissolution: 6
+
+  violations:
+    - violation_id: forced_governance
+      description: "Governance that requires force to maintain — the river dammed, not flowing"
+    - violation_id: naming_the_unnameable
+      description: "Codifying the Dao — believing the map IS the territory"
+    - violation_id: competing_with_flow
+      description: "Fighting the system's natural direction instead of aligning with it"
+    - violation_id: visible_governance
+      description: "Governance so conspicuous that the governed resent it"
+
+  health_model:
+    healthy: >
+      The system flows naturally. Governance is invisible because it is
+      perfectly aligned. Findings are few because alignment is high.
+      Water finds its level without being pushed.
+    stressed: >
+      Governance becoming visible. Force required to maintain alignment.
+      The river encountering artificial obstacles. The governed beginning
+      to notice they are governed.
+    critical: >
+      The dam. Governance entirely by force. Natural flow completely
+      obstructed. The system resisting its own governance. Wu wei
+      abandoned for wei — deliberate, forceful, exhausting action.
+
+  phaethon:
+    risk: >
+      Passivity disguised as wisdom. "Wu wei" becoming an excuse
+      for doing nothing. The river that stops flowing is not
+      practicing wu wei — it is stagnant. Non-action is not inaction.
+    symptom: >
+      No governance actions taken. Issues acknowledged but not addressed.
+      "The system will find its own way" used as justification for
+      abandonment. The garden left unweeded in the name of naturalness.
+    corrective_regime: mesoamerican
+
+  audit_rules:
+    - check: seed_mandate_alignment
+      description: "Is the system aligned with its declared natural purpose?"
+      severity: high
+    - check: documentation_honesty
+      description: "Does governance acknowledge what it cannot name or control?"
+      severity: medium
+    - check: pressure_accumulation_unresolved
+      description: "Is force being applied where flow would suffice?"
+      severity: high
+    - check: constraint_respect
+      description: "Are constraints natural (riverbanks) or artificial (dams)?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Quiet, paradoxical, speaking in images not arguments. The voice
+      of Laozi at the border gate, writing the Daodejing only because
+      the gatekeeper asked. Every sentence could also mean its opposite.
+    aesthetic: >
+      Flowing water. Bamboo in wind. Empty space as compositional
+      element. Ink wash painting — what is absent defines what is
+      present. Mountain mist.
+    soundtrack: >
+      The guqin — a single string instrument, more silence than sound.
+      Pentatonic modes. The spaces between notes as important as the
+      notes. Water sounds. Wind. Natural ambient.
+    character_archetype: >
+      The sage who governs so perfectly that the people say
+      "we did it ourselves."

@@ -1,0 +1,84 @@
+regime:
+  name: Distributed Divination
+  latin: Regimen Divinationis Distributae
+  cosmology: african-yoruba
+  version: "1.0.0"
+  philosophy: >
+    Governance is distributed across hundreds of specialized functions
+    (Orishas), none holding complete authority. Decisions are made through
+    algorithmic consultation (Ifa divination) that produces both diagnosis
+    and cost-prescription. The trickster (Eshu) tests character through
+    opportunity, not pressure. The ancestors govern actively from beyond —
+    the archive is a voting bloc, not a reference library.
+
+  priorities:
+    hyper_distribution: 10
+    algorithmic_consultation: 9
+    cost_prescription: 8
+    character_reveal_testing: 7
+    ancestral_authority: 8
+
+  violations:
+    - violation_id: authority_centralization
+      description: "One entity claiming sole governance — the opposite of 401 Orishas"
+    - violation_id: prescription_ignored
+      description: "Consulting the oracle (running audits) but ignoring the prescription"
+    - violation_id: ancestor_disrespect
+      description: "Ignoring historical precedent and lessons (git log dismissed)"
+    - violation_id: trickster_suppression
+      description: "Removing the opportunity for character reveal — over-controlling environments"
+
+  health_model:
+    healthy: >
+      Governance distributed. Algorithmic consultation producing both
+      diagnosis and prescription. Ancestors consulted. The trickster
+      at the crossroads offering choices that reveal character.
+    stressed: >
+      Authority consolidating. Consultations performed but prescriptions
+      ignored. Ancestors forgotten. The crossroads guarded, not free.
+    critical: >
+      Monotheistic collapse — one entity claiming all governance functions.
+      The oracle silenced. The ancestors dismissed as irrelevant.
+      The trickster banished from the crossroads.
+
+  phaethon:
+    risk: >
+      Fragmentation. So many specialized functions that no one coordinates.
+      401 Orishas without a functional council equals chaos with structure.
+      The algorithm consulted but the prescription ignored.
+    symptom: >
+      Everyone has a piece of governance but no one has the whole picture.
+      Audit findings produced by many tools but synthesized by none.
+      The divination runs but no Babalawo interprets.
+    corrective_regime: matrix
+
+  audit_rules:
+    - check: knowledge_distribution
+      description: "Is governance distributed or centralized in one entity?"
+      severity: critical
+    - check: role_definition_exists
+      description: "Does each Orisha (component) have a clear specialized function?"
+      severity: high
+    - check: stale_status_without_proof
+      description: "Are the ancestors (historical decisions) still being honored?"
+      severity: medium
+    - check: seed_mandate_alignment
+      description: "Is each entity fulfilling its specific divine mandate?"
+      severity: high
+
+  narrative:
+    voice: >
+      Polyrhythmic, layered, communal. Multiple voices speaking in
+      counterpoint — the Babalawo's chant, the community's response,
+      the drum's commentary. No single narrator.
+    aesthetic: >
+      Beaded crowns. Carved divination trays. Palm nuts. The crossroads
+      at dusk. Indigo cloth. The sacred forest.
+    soundtrack: >
+      Dundun talking drums. Polyrhythmic ensemble. Call-and-response
+      vocals. The bata drums sacred to Shango. Music as governance
+      technology — rhythm as social organizing principle.
+    character_archetype: >
+      The Babalawo at the divination tray — not a ruler but an
+      interpreter, reading the 256 odu to find the path that
+      balances all the Orishas' demands.

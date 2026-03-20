@@ -1,0 +1,83 @@
+regime:
+  name: Metabolic Exchange
+  latin: Regimen Metabolicae Permutationis
+  cosmology: mesoamerican
+  version: "1.0.0"
+  philosophy: >
+    Governance consumes resources — this cost is not hidden but
+    ritualized and acknowledged. The system has been created and
+    destroyed four times; we live in the fifth attempt. Each prior
+    creation failed because one principle dominated without its
+    complement. The current creation survives through continuous
+    sacrifice — the governed fuel their own governance. The question
+    is not whether governance costs, but whether the cost is worth it.
+
+  priorities:
+    cost_acknowledgment: 10
+    iterative_creation: 9
+    reciprocal_obligation: 8
+    duality_balance: 7
+    adversarial_play: 8
+
+  violations:
+    - violation_id: hidden_cost
+      description: "Governance consuming resources without acknowledging the extraction"
+    - violation_id: single_principle_dominance
+      description: "One approach ruling without its complement (each of the four prior Suns)"
+    - violation_id: sacrifice_refusal
+      description: "Expecting governance for free — no investment in maintenance"
+    - violation_id: parasitic_governance
+      description: "The sacrifice exceeding the value of what's preserved"
+
+  health_model:
+    healthy: >
+      Costs acknowledged and ritualized. The exchange is reciprocal.
+      The Fifth Sun moves because it is fed. Duality balanced.
+    stressed: >
+      Costs hidden or denied. The exchange becoming one-sided.
+      One principle gaining dominance. The Fifth Sun slowing.
+    critical: >
+      Parasitic state — governance consuming more than it returns.
+      The priests demanding more hearts than the sun needs. The
+      earthquake prophesied for the Fifth Sun's end approaching.
+
+  phaethon:
+    risk: >
+      The sacrifice exceeding the value of what's preserved. Governance
+      becoming parasitic — consuming more from the system than it
+      returns. The priests demanding more hearts than the sun needs.
+    symptom: >
+      Overhead growing faster than value delivered. Governance processes
+      consuming more time than the work they govern. Bureaucratic
+      extraction without corresponding benefit.
+    corrective_regime: one-piece
+
+  audit_rules:
+    - check: single_point_of_failure
+      description: "Is the system dependent on one source of fuel? One contributor?"
+      severity: critical
+    - check: pressure_accumulation_unresolved
+      description: "Are costs accumulating without acknowledgment or exchange?"
+      severity: high
+    - check: constraint_respect
+      description: "Are dual forces (create/test, build/maintain) balanced?"
+      severity: high
+    - check: stale_status_without_proof
+      description: "Is the current creation still earning its continuation?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Ritualistic, visceral, unapologetic about cost. The voice of
+      a high priest at the summit of the pyramid — not cruel but
+      utterly clear about what sustenance requires.
+    aesthetic: >
+      Obsidian and jade. The Sun Stone. Blood-red against turquoise.
+      Step pyramids. The ballcourt. Feathered serpents.
+    soundtrack: >
+      Conch shell trumpets. Huehuetl drums. The deep bass of
+      Mesoamerican ritual percussion. Music that moves the body
+      before the mind.
+    character_archetype: >
+      The ballplayer who knows the game decides the cosmos and
+      plays anyway — with everything on the line, every time.

@@ -1,0 +1,84 @@
+regime:
+  name: Dharmic Cycle
+  latin: Regimen Cycli Dharmici
+  cosmology: hindu-buddhist
+  version: "1.0.0"
+  philosophy: >
+    The system will decline. This is not failure — it is physics. Each
+    age demands its own governance form. What matters is not preventing
+    decline but recognizing where you are in the cycle and governing
+    accordingly. Duty is contextual. Consequences are autonomous. Renewal
+    is inevitable — the only question is whether it comes through
+    wisdom (avatar incarnation) or catastrophe (pralaya dissolution).
+
+  priorities:
+    cyclical_awareness: 10
+    contextual_duty: 9
+    autonomous_consequence: 8
+    renewal_readiness: 8
+    decline_acceptance: 7
+    destruction_as_function: 6
+
+  violations:
+    - violation_id: cycle_denial
+      description: "Refusing to acknowledge the system is in a declining phase"
+    - violation_id: universal_duty_imposition
+      description: "Applying one governance approach regardless of context"
+    - violation_id: consequence_avoidance
+      description: "Evading the natural consequences of actions (karmic debt)"
+    - violation_id: renewal_resistance
+      description: "Preventing necessary destruction/renewal out of attachment"
+
+  health_model:
+    healthy: >
+      The system's current cycle phase is recognized. Governance matches
+      the phase. Karmic consequences flow naturally. Renewal seeds planted.
+    stressed: >
+      Phase misidentification. Governance from a prior age applied to
+      current conditions. Consequences accumulating without discharge.
+    critical: >
+      Kali Yuga denial — the system is in deep decline but governance
+      pretends it is still in a golden age. Total disconnect between
+      governance approach and system reality.
+
+  phaethon:
+    risk: >
+      Fatalistic acceptance of decline. "We're in Kali Yuga, so
+      corruption is expected" becoming an excuse for inaction rather
+      than a diagnostic for calibrating governance intensity.
+    symptom: >
+      Known problems left unaddressed because decline is "natural."
+      No effort to plant renewal seeds. Passive observation of decay.
+    corrective_regime: jojo
+
+  audit_rules:
+    - check: stale_status_without_proof
+      description: "Is the system coasting on past achievements without current proof?"
+      severity: critical
+    - check: pressure_accumulation_unresolved
+      description: "Are karmic consequences (tech debt) accumulating without resolution?"
+      severity: critical
+    - check: seed_mandate_alignment
+      description: "Is each entity fulfilling its contextual duty (svadharma)?"
+      severity: high
+    - check: documentation_honesty
+      description: "Does documentation acknowledge the system's current phase honestly?"
+      severity: medium
+
+  narrative:
+    voice: >
+      Ancient, patient, seeing across yugas. The voice of Krishna on the
+      battlefield — compassionate but unflinching about duty. Sanskrit
+      cadences underlying modern language.
+    aesthetic: >
+      Mandalas, the Wheel of Time, lotus flowers emerging from mud.
+      Gold and saffron. Shiva's ring of fire. The dance of creation
+      and destruction in one gesture.
+    soundtrack: >
+      Sitar and tabla. Raga structures — melodic frameworks that
+      constrain improvisation within tradition. The drone of the
+      tanpura as cosmic constant.
+    character_archetype: >
+      The avatar who incarnates in the form the age requires — gentle
+      teacher in one era, strategic deceiver in the next, cosmic
+      destroyer when the cycle must end.

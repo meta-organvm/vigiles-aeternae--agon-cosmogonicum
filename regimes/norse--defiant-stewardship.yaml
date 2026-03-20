@@ -1,0 +1,81 @@
+regime:
+  name: Defiant Stewardship
+  latin: Regimen Procurationis Defiantis
+  cosmology: norse
+  version: "1.0.0"
+  philosophy: >
+    The end is known. Ragnarok will come. The system will burn. Govern
+    anyway — not because you can prevent the end, but because the
+    quality of governance determines what survives the fire. Build
+    Valhalla. Gather the worthy. Plant seeds before the frost. Fight
+    because honor demands it, not because victory is possible.
+
+  priorities:
+    disaster_preparedness: 10
+    defiant_integrity: 9
+    knowledge_at_cost: 8
+    infrastructure_maintenance: 9
+    renewal_seeding: 8
+    trickster_awareness: 7
+
+  violations:
+    - violation_id: nihilistic_surrender
+      description: "Abandoning governance because the end is inevitable"
+    - violation_id: infrastructure_neglect
+      description: "Failing to water Yggdrasil — letting maintenance lapse"
+    - violation_id: knowledge_free_lunch
+      description: "Seeking knowledge without paying the cost (Odin's eye)"
+    - violation_id: trickster_blindness
+      description: "Ignoring unintended consequences (Loki's children)"
+
+  health_model:
+    healthy: >
+      Infrastructure maintained daily. Knowledge earned through sacrifice.
+      Disaster preparations active. The system fights for its future
+      while knowing the future is limited.
+    stressed: >
+      Maintenance slipping. Knowledge sought without cost. Disaster
+      preparations treated as theoretical. The fatalism creeping in.
+    critical: >
+      Fimbulwinter state — three winters without summer. The bonds
+      breaking. Fenrir free. The system has stopped fighting and
+      is merely waiting to die.
+
+  phaethon:
+    risk: >
+      Nihilistic surrender. "It's all going to burn anyway, so why
+      bother?" The noble fatalism collapsing into apathy. Odin
+      drinking in Valhalla instead of preparing for battle.
+    symptom: >
+      Maintenance tasks skipped. Disaster recovery untested. The team
+      has stopped believing the system is worth saving.
+    corrective_regime: one-piece
+
+  audit_rules:
+    - check: stale_status_without_proof
+      description: "Is the system actively maintaining itself or coasting toward Ragnarok?"
+      severity: critical
+    - check: pressure_accumulation_unresolved
+      description: "Are unresolved issues accumulating like Loki's bound children?"
+      severity: high
+    - check: single_point_of_failure
+      description: "If one component falls, does everything fall? (Baldr's death)"
+      severity: critical
+    - check: seed_mandate_alignment
+      description: "Is each entity fulfilling its mandate with defiant integrity?"
+      severity: high
+
+  narrative:
+    voice: >
+      Grim, resolute, darkly beautiful. The voice of a skald reciting
+      the Voluspa at a feast where everyone knows how the story ends.
+      Old Norse rhythms — alliterative, stark, unbowed.
+    aesthetic: >
+      Carved wood and iron. Rune-inscribed stone. Yggdrasil's branches
+      against a winter sky. Fire reflected in ice. The longship at dawn.
+    soundtrack: >
+      Kulning (Scandinavian herding calls). War drums. The Hardanger
+      fiddle's doubled strings. Wardruna's reconstructed Norse music.
+    character_archetype: >
+      The one-eyed king who hanged himself for knowledge, knowing the
+      knowledge would not save him, knowing he would use it anyway.

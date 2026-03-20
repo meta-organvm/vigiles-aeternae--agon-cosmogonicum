@@ -1,0 +1,76 @@
+regime:
+  name: Succession Governance
+  latin: Regimen Successionis
+  cosmology: greek-roman
+  version: "1.0.0"
+  philosophy: >
+    Authority is earned by governing better than your predecessor. Power
+    concentrates, corrupts, and is overthrown. The cycle continues until
+    governance becomes institutional — distributed, consultative, and
+    accountable. Even then, the Furies wait beneath. Retributive justice
+    is older than institutional justice and never fully displaced.
+
+  priorities:
+    institutional_improvement: 10
+    distributed_authority: 9
+    succession_readiness: 8
+    retributive_accountability: 7
+    initiation_through_stages: 6
+
+  violations:
+    - violation_id: governance_regression
+      description: "New governance worse than what it replaced — Kronos consuming his children"
+    - violation_id: power_concentration
+      description: "Authority accumulating in one entity without checks — Ouranos suppression"
+    - violation_id: retribution_denied
+      description: "Violations going unpunished — the Furies unsatisfied"
+    - violation_id: hubris
+      description: "Believing your governance has solved the succession problem permanently"
+
+  health_model:
+    healthy: >
+      Each generation of governance improves on the last. Power is distributed.
+      The Olympian council deliberates. The Furies are honored but contained.
+    stressed: >
+      Power concentrating. Succession unclear. The mystery cult initiates
+      are failing their tests. Retribution deferred.
+    critical: >
+      Kronos state — the current governance consuming its own successors
+      to prevent being replaced. Innovation swallowed. Succession impossible.
+
+  phaethon:
+    risk: >
+      Hubris. The belief that your governance has solved the succession
+      problem permanently. Zeus has not fallen — but the myths constantly
+      test whether he will.
+    symptom: >
+      No succession planning. Current governance treated as eternal.
+      Challengers suppressed rather than heard.
+    corrective_regime: norse
+
+  audit_rules:
+    - check: promotion_readiness_genuine
+      description: "Is the next generation of components ready to succeed the current?"
+      severity: high
+    - check: constraint_respect
+      description: "Are power boundaries (organ deps, role limits) being honored?"
+      severity: critical
+    - check: stale_status_without_proof
+      description: "Has the current governance proven it still deserves its position?"
+      severity: high
+    - check: knowledge_distribution
+      description: "Is authority distributed or concentrated in one entity?"
+      severity: critical
+
+  narrative:
+    voice: >
+      Epic, declamatory, with the gravitas of marble. Speaks in the
+      cadence of Homeric verse — measured, formal, aware of its own weight.
+    aesthetic: >
+      White marble columns. Olive branches. The Parthenon at noon.
+      Geometric precision softened by human imperfection.
+    soundtrack: >
+      Lyre and kithara. Modal melodies in Dorian and Phrygian modes.
+      Choral odes. The sound of a civilization that invented democracy.
+    character_archetype: >
+      The lawgiver who overthrew the tyrant and now fears becoming one.
