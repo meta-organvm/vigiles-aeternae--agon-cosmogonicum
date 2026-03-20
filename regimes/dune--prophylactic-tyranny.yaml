@@ -1,0 +1,86 @@
+regime:
+  name: Prophylactic Tyranny
+  latin: Regimen Tyrannidis Prophylacticae
+  cosmology: dune
+  version: "1.0.0"
+  philosophy: >
+    The greatest danger is not bad governance but governance dependency.
+    Prescience (perfect information) does not liberate — it imprisons.
+    The hero who saves the world becomes the tyrant who consumes it.
+    The only cure is governance so deliberately terrible that the
+    governed develop permanent immunity. The Golden Path: scatter
+    humanity beyond any single governor's reach. Make the ungovernable.
+
+  priorities:
+    governance_dependency_detection: 10
+    prescience_trap_awareness: 9
+    single_resource_vulnerability: 9
+    hidden_hand_detection: 8
+    scattering_readiness: 7
+    hero_worship_resistance: 8
+
+  violations:
+    - violation_id: governance_dependency
+      description: "The system cannot function without one specific governor, tool, or process"
+    - violation_id: prescience_trap
+      description: "Perfect information producing paralysis rather than freedom"
+    - violation_id: hidden_hand
+      description: "Governance operating in secret — Bene Gesserit Missionaria Protectiva"
+    - violation_id: resource_monopoly
+      description: "One critical resource controlling all governance — whoever controls the spice"
+    - violation_id: messiah_complex
+      description: "One entity treated as irreplaceable savior — the Lisan al-Gaib delusion"
+
+  health_model:
+    healthy: >
+      No single point of dependency. Governance distributed and transparent.
+      The system can survive the loss of any single component, person, or resource.
+      No heroes. No messiahs. Distributed resilience.
+    stressed: >
+      Dependencies consolidating. Key decisions flowing through one person or system.
+      The beginnings of hero worship. "What would we do without X?"
+    critical: >
+      Arrakis state — the entire system depends on one resource, one person, one
+      process. Remove it and everything collapses. The jihad is coming whether
+      you want it or not.
+
+  phaethon:
+    risk: >
+      Nihilistic deconstruction. So committed to undermining governance
+      that nothing functional remains. The Golden Path works because Leto II
+      governed FOR 3,500 years. Destruction without stewardship is just chaos.
+    symptom: >
+      Governance structures dismantled without replacement. Critical functions
+      abandoned in the name of preventing dependency. The scattering before
+      the system is ready to survive scattering.
+    corrective_regime: tolkien
+
+  audit_rules:
+    - check: single_point_of_failure
+      description: "Is the system dependent on one critical resource, person, or process?"
+      severity: critical
+    - check: knowledge_distribution
+      description: "Is governance knowledge distributed or concentrated in hidden hands?"
+      severity: critical
+    - check: stale_status_without_proof
+      description: "Is the system coasting on a hero's past achievements?"
+      severity: high
+    - check: role_definition_exists
+      description: "Are governance structures transparent or operating in secret?"
+      severity: high
+
+  narrative:
+    voice: >
+      Prophetic, burdened, speaking from millennia of foresight. The voice
+      of someone who has seen every possible future and chosen the least
+      terrible one.
+    aesthetic: >
+      Desert. Sandworms beneath the surface. Stillsuit discipline. The
+      golden throne of the God Emperor. Arrakis — beautiful, lethal,
+      and the only source of what matters.
+    soundtrack: >
+      Hans Zimmer's Dune score — massive, tectonic, felt in the chest.
+      The Voice as sonic weapon. Desert wind as geological time.
+    character_archetype: >
+      The messiah who realizes he is the villain of his own story —
+      and continues anyway because the alternative is worse.
