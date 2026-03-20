@@ -1,0 +1,79 @@
+regime:
+  name: Stochastic Governance
+  latin: Regimen Stochasticum
+  cosmology: foundation
+  version: "1.0.0"
+  philosophy: >
+    Individual events are ungovernable. Only populations over long
+    timescales can be predicted and shaped. The Plan works through
+    statistical inevitability, not heroic action. When anomalies
+    break the statistics, hidden governors correct the trajectory.
+
+  priorities:
+    statistical_trajectory: 10
+    anomaly_detection: 9
+    population_governance: 8
+    hidden_correction: 7
+    long_timescale_planning: 9
+
+  violations:
+    - violation_id: individual_fixation
+      description: "Governing individual entities instead of population trends"
+    - violation_id: anomaly_blindness
+      description: "Failing to detect the Mule — a single entity powerful enough to break statistics"
+    - violation_id: plan_rigidity
+      description: "Treating the Plan as sacred rather than as a trajectory to be corrected"
+    - violation_id: short_termism
+      description: "Making decisions based on immediate events rather than long-term trajectories"
+
+  health_model:
+    healthy: >
+      Population trends moving along predicted trajectory. Individual
+      anomalies detected and compensated. The Plan flexible enough to
+      absorb shocks. Long-term vision intact.
+    stressed: >
+      Trajectory drifting from prediction. Anomalies accumulating faster
+      than correction. Short-term crises consuming long-term planning capacity.
+    critical: >
+      The Mule state. A single anomaly has broken the statistical model.
+      The Plan is invalid. The hidden governors must reveal themselves
+      or watch the trajectory collapse.
+
+  phaethon:
+    risk: >
+      The Mule. A sufficiently powerful anomaly that statistics cannot
+      predict. Also: the governed discovering the hidden governors,
+      invalidating the statistical model through awareness.
+    symptom: >
+      One entity or event dominating all attention. Statistical trends
+      ignored in favor of individual drama. The Plan abandoned for
+      crisis management.
+    corrective_regime: dune
+
+  audit_rules:
+    - check: stale_status_without_proof
+      description: "Is the system's trajectory still aligned with long-term goals?"
+      severity: high
+    - check: single_point_of_failure
+      description: "Can any single anomaly break the system's statistical model?"
+      severity: critical
+    - check: knowledge_distribution
+      description: "Is governance knowledge hidden from those it governs?"
+      severity: medium
+    - check: pressure_accumulation_unresolved
+      description: "Are short-term crises consuming long-term planning capacity?"
+      severity: high
+
+  narrative:
+    voice: >
+      Mathematical, detached, speaking in probabilities not certainties.
+      Hari Seldon addressing the future from a recorded hologram —
+      already dead, still governing.
+    aesthetic: >
+      Star charts. Probability matrices. The Vault on Terminus.
+      Imperial decline rendered as declining curves on a graph.
+    soundtrack: >
+      Minimalist piano. Philip Glass-style arpeggios — repeating
+      patterns that shift imperceptibly over long timescales.
+    character_archetype: >
+      The dead mathematician whose equations still govern the living.

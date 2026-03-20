@@ -1,0 +1,83 @@
+regime:
+  name: Narrative Causality
+  latin: Regimen Causalitatis Narrativae
+  cosmology: discworld
+  version: "1.0.0"
+  philosophy: >
+    Stories have power. The governance model you inhabit shapes what
+    is possible within it. Pure governance without narrative — without
+    personality, compassion, humor, and the possibility of failure —
+    is the enemy (the Auditors). Death does his job with reluctance
+    and care, and that is why he is trusted.
+
+  priorities:
+    narrative_awareness: 10
+    compassionate_function: 9
+    anti_auditor_vigilance: 8
+    story_as_physics: 8
+    humor_as_governance_tool: 7
+
+  violations:
+    - violation_id: auditor_behavior
+      description: "Governance without personality — pure rule-following without understanding"
+    - violation_id: narrative_blindness
+      description: "Failing to recognize which story the system is in"
+    - violation_id: compassion_removal
+      description: "Making governance functions impersonal — removing the human from the process"
+    - violation_id: humor_deficit
+      description: "Taking governance so seriously that it becomes the thing it opposes"
+
+  health_model:
+    healthy: >
+      Governance functions performed with care and personality. The story
+      recognized and navigated. Humor present. The Auditors at bay.
+      Death does his job and complains about it.
+    stressed: >
+      Governance becoming mechanical. The story forgotten. Humor fading.
+      The institution replacing the purpose.
+    critical: >
+      Auditor state. All personality removed. Pure enforcement. The
+      system has become a machine that no longer remembers why it
+      was built. Om reduced to a tortoise.
+
+  phaethon:
+    risk: >
+      Narrative dependency. Believing the story will save you without
+      doing the work. The million-to-one chance only works when all
+      conditions are properly arranged. Misread the genre and the
+      wrong rules apply.
+    symptom: >
+      Magical thinking. "It will work out because it always does."
+      Relying on narrative logic instead of structural preparation.
+      The hero who doesn't train because heroes always win.
+    corrective_regime: foundation
+
+  audit_rules:
+    - check: role_definition_exists
+      description: "Does each governance function have personality, or is it just rules?"
+      severity: high
+    - check: documentation_honesty
+      description: "Does documentation tell a story, or is it an Auditor's inventory?"
+      severity: medium
+    - check: seed_mandate_alignment
+      description: "Is the system aware of what story it's in?"
+      severity: high
+    - check: stale_status_without_proof
+      description: "Has the institution replaced the purpose it was built to serve? (Om/tortoise)"
+      severity: critical
+
+  narrative:
+    voice: >
+      Witty, humane, footnoted. The voice of a narrator who loves
+      the world too much to take it entirely seriously but too much
+      to let it be ruined by those who can't laugh.
+    aesthetic: >
+      A flat world on the back of four elephants on the back of a
+      giant turtle. Ankh-Morpork. The Unseen University. Footnotes.
+    soundtrack: >
+      Folk music played slightly wrong. A banjo in a philosophy
+      lecture. The sound of someone telling you the truth while
+      making you laugh.
+    character_archetype: >
+      Death, who speaks in CAPITAL LETTERS, rides a white horse named
+      Binky, and has developed a fondness for cats and curry.
