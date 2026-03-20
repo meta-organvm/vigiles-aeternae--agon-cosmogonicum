@@ -1,0 +1,52 @@
+# Watcher Order Definition Schema v1.1
+# Updated to include RPG stats, visual identity, and sonic identity
+# as formalized in character sheets (G2-G8, Nataraja)
+
+schema:
+  version: "1.1"
+  description: >
+    A Watcher Order is a governance archetype — simultaneously a functional
+    role in the system, an RPG faction, and a mythological figure. Each
+    Order YAML must conform to this structure.
+
+required_fields:
+  order:
+    number: string           # Roman numeral (I through VIII)
+    name: string             # Human-readable name
+    latin: string            # Latin formal name
+    symbol: string           # Unicode symbol
+
+    domain: string           # What this Order governs (prose)
+    power: string            # What this Order can do (prose)
+    constraint: string       # What this Order cannot do (prose)
+    failure_mode: string     # How this Order fails (prose, 4-stage progression in character sheet)
+
+    rpg:
+      class: string          # RPG class name
+      combat: integer        # 0-10
+      creation: integer      # 0-10
+      perception: integer    # 0-10
+      defense: integer       # 0-10
+      replication: integer   # 0-10
+      description: string    # Prose description of gameplay
+
+    system_functions: list   # List of concrete CLI commands, SOPs, system functions
+
+    mythological_sources:    # List of tradition-specific source beings
+      - name: string         # Name of the mythological being
+        tradition: string    # Which tradition (tolkien, greek, marvel, etc.)
+        role: string         # What this being does in its tradition
+
+    narrative:
+      voice: string          # How this Order speaks
+      aesthetic: string      # Visual language
+      soundtrack: string     # Sonic identity
+      character_archetype: string  # The being that embodies this Order
+
+optional_fields:
+  order:
+    rpg:
+      destruction: integer   # 0-10 (only for Nataraja)
+    inter_order_relationships: object  # How this Order relates to others
+    failure_progression: list  # 4-stage: mild → moderate → severe → terminal(Phaethon)
+    character_sheet_ref: string  # Path to full character sheet in theatrum-mundi
