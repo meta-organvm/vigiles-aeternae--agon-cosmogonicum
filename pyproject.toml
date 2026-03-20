@@ -17,6 +17,9 @@ dev = [
     "ruff>=0.1.0",
 ]
 
+[project.scripts]
+vigiles = "vigiles_engine.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
