@@ -172,6 +172,36 @@ def cmd_chronicle(args: argparse.Namespace) -> None:
                 print(f"  ... and {findings - 5} more")
 
 
+def cmd_orders_audit(args: argparse.Namespace) -> None:
+    """Run an Order-specific audit."""
+    from .orders import load_all_orders, order_audit
+
+    orders_dir = Path(__file__).parent.parent.parent / "orders"
+    _, registry_path, _ = _find_paths()
+    orders = load_all_orders(orders_dir)
+
+    # Find the matching order
+    target = args.order.lower()
+    matched = None
+    for key, order in orders.items():
+        if target in key or target in order.name.lower() or target in order.latin.lower():
+            matched = order
+            break
+
+    if not matched:
+        print(f"Order '{args.order}' not found. Available: {', '.join(orders.keys())}")
+        sys.exit(1)
+
+    findings = order_audit(matched, registry_path)
+    print(f"# {matched.name} ({matched.latin}) {matched.symbol}")
+    print(f"## Domain: {matched.domain[:80]}")
+    print(f"## Findings: {len(findings)}\n")
+    for f in findings:
+        print(f"  [{f.severity}] {f.target}: {f.description}")
+    if not findings:
+        print("  No findings — this Order's domain is clear.")
+
+
 def cmd_orders_list(args: argparse.Namespace) -> None:
     """List all Watcher Orders."""
     orders_dir = Path(__file__).parent.parent.parent / "orders"
@@ -239,6 +269,8 @@ def main() -> None:
     ord_sub.add_parser("list", help="List all Orders")
     show_p = ord_sub.add_parser("show", help="Show Order details")
     show_p.add_argument("order")
+    audit_p = ord_sub.add_parser("audit", help="Run Order-specific audit")
+    audit_p.add_argument("order")
 
     args = parser.parse_args()
 
@@ -258,6 +290,8 @@ def main() -> None:
             cmd_orders_list(args)
         elif args.orders_cmd == "show":
             cmd_orders_show(args)
+        elif args.orders_cmd == "audit":
+            cmd_orders_audit(args)
         else:
             orders.print_help()
     else:
