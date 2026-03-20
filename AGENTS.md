@@ -1,0 +1,20 @@
+<!-- ORGANVM:AUTO:START -->
+## Agent Context (auto-generated — do not edit)
+
+This repo participates in the **META-ORGANVM (Meta)** swarm.
+
+### Active Subscriptions
+- *No active event subscriptions*
+
+### Production Responsibilities
+- *No production responsibilities*
+
+### External Dependencies
+- *No external dependencies*
+
+### Governance Constraints
+- Adhere to unidirectional flow: I→II→III
+- Never commit secrets or credentials
+
+*Last synced: 2026-03-20T10:58:36Z*
+<!-- ORGANVM:AUTO:END -->
