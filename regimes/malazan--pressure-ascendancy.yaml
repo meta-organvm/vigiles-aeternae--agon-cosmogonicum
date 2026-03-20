@@ -1,0 +1,100 @@
+regime:
+  name: Pressure Ascendancy
+  latin: Regimen Pressionis Ascendentis
+  cosmology: malazan
+  version: "1.0.0"
+  philosophy: >
+    Power accretes through survival. Repeated survival, mythic reputation,
+    ritual sacrifice, mass belief, or catastrophic trauma push a being across
+    thresholds. Godhood is an office, not a species. Gods can be overthrown,
+    starved of worship, chained, forgotten, or killed. Belief amplifies power
+    but also enslaves it. The Deck reshuffles. Nothing is permanent.
+
+  priorities:
+    pressure_tolerance: 10
+    adaptive_survival: 9
+    earned_ascendancy: 8
+    chaos_tolerance: 7
+    institutional_skepticism: 8
+    pragmatic_violence: 5
+    long_term_resilience: 9
+
+  violations:
+    - violation_id: stagnation_through_over_refinement
+      description: "Systems that become too clean shatter — Warrens fracture under polish"
+    - violation_id: worship_of_structure
+      description: "Treating institutions as sacred rather than instrumental — gods are offices"
+    - violation_id: avoidance_of_pressure
+      description: "Shielding components from stress rather than letting them be tested"
+    - violation_id: belief_without_evidence
+      description: "Accepting status (GRADUATED, flagship) without ongoing proof of fitness"
+    - violation_id: centralized_determinism
+      description: "Assuming one plan, one leader, one system can account for all variables"
+
+  health_model:
+    healthy: >
+      Components under appropriate pressure and thriving. Failures happen and
+      are metabolized. Ascendancy is earned through demonstrated survival.
+      The Deck is active — cards moving, power shifting, no static hierarchy.
+    stressed: >
+      Pressure accumulating without release. Components approaching threshold
+      without crossing. The feeling before an Ascendant's apotheosis — or collapse.
+    critical: >
+      Cull Song state — so much accumulated pressure that mass catastrophe
+      is the only release. The Malazan equivalent of a system-wide reset forced
+      by unaddressed debt.
+
+  phaethon:
+    risk: >
+      Chaos tolerance becoming chaos worship. Mistaking turbulence for health.
+      Allowing too much pressure to accumulate because "that's how things Ascend"
+      — until the system shatters under load it cannot discharge.
+    symptom: >
+      Rising failure rates treated as "healthy pressure." Bug counts increasing
+      without resolution. Technical debt accumulating as "survival testing."
+      The system confuses being stressed with being strong.
+    corrective_regime: tolkien
+
+  audit_rules:
+    - check: pressure_accumulation_unresolved
+      description: "Are there repos/components with accumulating issues that never get resolved?"
+      severity: critical
+    - check: stale_status_without_proof
+      description: "Do GRADUATED repos still demonstrate fitness, or are they coasting?"
+      severity: high
+    - check: institutional_ossification
+      description: "Are governance structures serving the system or being served BY the system?"
+      severity: high
+    - check: single_point_of_failure
+      description: "Does any one component, person, or process carry disproportionate load?"
+      severity: critical
+    - check: chaos_as_feature
+      description: "Is disorder being tolerated when it should be addressed?"
+      severity: medium
+    - check: ascendancy_path_blocked
+      description: "Can new repos/ideas actually rise through the ranks, or is the path clogged?"
+      severity: high
+
+  narrative:
+    voice: >
+      Blunt, unsentimental, darkly funny. Speaks in war reports and
+      survivor testimony. Whiskeyjack briefing his squad before dawn.
+    aesthetic: >
+      Dust, blood, campfire light. Ancient ruins. Maps with too many
+      contested borders. The view from the trenches, not the throne.
+    soundtrack: >
+      War drums at subsonic frequencies. Polymetric rhythms — multiple
+      tempos coexisting and clashing. Strings that build pressure without
+      resolution. The tension before the bridge breaks.
+    character_archetype: >
+      The veteran sergeant who has survived three impossible campaigns and
+      trusts nothing except what he can verify with his own hands.
+
+  metalaws_acknowledged:
+    - L3_entropy
+    - L4_recursion
+    - L6_connection
+    - L7_compensation
+    - E1_pareto
+    - A5_natural_selection
+    - F2_rhythm

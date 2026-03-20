@@ -1,0 +1,59 @@
+order:
+  number: IV
+  name: The Psychopomps
+  latin: Ordo Psychopomporum
+  symbol: "⚷"
+
+  domain: Transition — mediating movement between states, the gate function
+  power: >
+    Control passage. Promotion, demotion, graduation, archival — nothing
+    moves between states without their permission. The living embodiment
+    of the promotion state machine.
+  constraint: >
+    Must judge readiness, not worthiness. Refusing passage creates stagnation.
+    Granting too freely creates chaos. The balance is perpetual.
+  failure_mode: >
+    Gatekeeping as identity. Becoming so invested in the threshold that they
+    forget it exists to be crossed, not worshipped.
+
+  rpg:
+    class: Guides
+    combat: 3
+    creation: 3
+    perception: 5
+    defense: 3
+    replication: 0
+    description: Moderate power across all domains, but only at boundaries. Useless in open terrain, supreme at doorways.
+
+  system_functions:
+    - governance promote (promotion state machine)
+    - the Membrane Protocol (SOP--the-membrane-protocol)
+    - repo onboarding (SOP--repo-onboarding-and-habitat-creation)
+    - state transitions (LOCAL→CANDIDATE→PUBLIC_PROCESS→GRADUATED→ARCHIVED)
+    - theory-to-concrete gate (SOP--theory-to-concrete-gate)
+
+  mythological_sources:
+    - name: Hermes
+      tradition: Greek
+      role: Psychopomp, guide of souls, god of boundaries and transitions
+    - name: Train Conductor
+      tradition: Matrix
+      role: Threshold guardian between programs — mediates movement between systems
+    - name: Charon
+      tradition: Greek
+      role: Ferryman of the dead — passage requires payment (readiness cost)
+    - name: Kevin Garvey
+      tradition: The Leftovers
+      role: Membrane-walker between incompatible realities — liminal figure
+    - name: Anubis
+      tradition: Egyptian
+      role: Guide through the underworld — weigher of hearts at the threshold
+    - name: Shinigami
+      tradition: Japanese
+      role: Death gods who govern transition between life states
+
+  narrative:
+    voice: Calm, procedural, neither warm nor cold. The voice at the border checkpoint.
+    aesthetic: Doorways, rivers, bridges. Twilight. Between-spaces.
+    soundtrack: Transition sounds — water, wind, footsteps on thresholds. Liminal ambient.
+    character_archetype: The ferryman who has crossed a thousand times but never stays on either shore.

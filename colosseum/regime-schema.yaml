@@ -1,0 +1,53 @@
+# Regime Definition Schema v1.0
+# Every regime YAML must conform to this structure.
+
+schema:
+  version: "1.0"
+  description: >
+    A Regime is a complete governance philosophy derived from a specific
+    mythological cosmology, formalized as structured data that can be
+    read by humans, parsed by code, and played as an RPG faction.
+
+required_fields:
+  regime:
+    name: string             # Human-readable name
+    latin: string            # Latin formal name
+    cosmology: string        # Source mythology identifier
+    version: string          # Semantic version (regimes evolve)
+    philosophy: string       # Core governance philosophy (prose)
+
+    priorities:              # What this regime values (scored 1-10)
+      # Keys are domain-specific; values are integers 1-10
+      # Example keys: fidelity_to_mandate, constraint_discipline, etc.
+
+    violations:              # What this regime considers failure
+      # List of objects with violation_id and description
+      - violation_id: string
+        description: string
+
+    health_model:            # How this regime defines system health
+      healthy: string
+      stressed: string
+      critical: string
+
+    phaethon:                # This regime's own blind spots (REQUIRED)
+      risk: string           # What could go wrong if this regime governs too long
+      symptom: string        # How to detect the blind spot manifesting
+      corrective_regime: string  # Which regime compensates
+
+    audit_rules:             # How this regime audits real system state
+      - check: string        # Machine-readable check identifier
+        description: string  # Human-readable description
+        severity: string     # critical | high | medium | low
+
+    narrative:               # Aesthetic and character identity
+      voice: string          # How this regime speaks
+      aesthetic: string      # Visual language
+      soundtrack: string     # Sonic identity
+      character_archetype: string  # The being that embodies this regime
+
+optional_fields:
+  regime:
+    changelog: list          # List of {version, date, changes} for evolution tracking
+    metalaws_acknowledged: list  # Which metaLAWs this regime explicitly claims to embody
+    forbidden_fusions: list  # Which other regimes this one cannot fuse with (Phaethon)

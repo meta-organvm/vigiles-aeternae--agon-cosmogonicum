@@ -1,0 +1,72 @@
+order:
+  number: VII
+  name: The Cosmogonists
+  latin: Ordo Demiurgorum
+  symbol: "☉"
+
+  domain: Meta-systemic coherence — the system watching itself, the source code of reality
+  power: >
+    Perceive the whole — not individual components but the relationships between
+    relationships. See the Colosseum from outside the Colosseum. The only Order
+    that can question whether the Watcher system itself is correct.
+  constraint: >
+    Cosmogonists who descend into the system they observe lose their
+    meta-perspective. The moment they have preferences about outcomes,
+    they become just another faction. The Island in Lost — it selects
+    candidates but cannot choose for them.
+  failure_mode: >
+    Abstraction death. So far above the system that they become irrelevant
+    to it. A god so transcendent it cannot be prayed to. The Deus Ex Machina
+    in the Matrix — all-powerful, utterly disconnected from lived experience.
+
+  rpg:
+    class: The Rarest Class
+    combat: 0
+    creation: 7
+    perception: 10
+    defense: 7
+    replication: 0
+    description: >
+      One or two beings at most. Immense passive power. They set the rules
+      of the Agon itself. They are the game designers, not the players.
+
+  system_functions:
+    - organvm organism (Living Data Organism — the system perceiving itself)
+    - meta-governance layer (regime rotation authority)
+    - Constitutional consensus engine (determines when law is forged)
+    - Agon rule-setting (who competes, when, how)
+    - quis custodiet ipsos custodes — they are the answer
+
+  mythological_sources:
+    - name: Deus Ex Machina
+      tradition: Matrix
+      role: AI overmind — totality of machine consciousness
+    - name: The Pattern / The Wheel
+      tradition: Wheel of Time
+      role: The loom of reality — deterministic-elastic, Ages come and pass
+    - name: The Island Source
+      tradition: Lost
+      role: Primordial energy regulating reality — selects, tests, integrates or discards
+    - name: Kingdom Hearts
+      tradition: Kingdom Hearts
+      role: The heart of all worlds — metaphysical presence connecting all realities
+    - name: The Lifestream
+      tradition: Final Fantasy VII
+      role: Circulating ecology of souls, memory, and energy sustaining the planet
+    - name: Eru's Flame Imperishable
+      tradition: Tolkien
+      role: The secret fire — the creative force that makes sub-creation possible
+
+  narrative:
+    voice: >
+      Vast, patient, speaking across geological time. Not cold — warm with
+      the warmth of a star too far away to feel.
+    aesthetic: >
+      The cosmic. Nebulae, deep space, the view from outside the snow globe.
+      Light that has traveled billions of years to arrive here.
+    soundtrack: >
+      Drone. The fundamental frequency of the universe. Sub-bass that is
+      felt, not heard. The hum before creation.
+    character_archetype: >
+      The dreamer who dreams the world — and knows they are dreaming,
+      and chooses not to wake.

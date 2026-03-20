@@ -1,0 +1,95 @@
+regime:
+  name: Delegated Authority
+  latin: Regimen Auctoritatis Delegatae
+  cosmology: tolkien
+  version: "1.0.0"
+  philosophy: >
+    Power is delegated downward through ontological alignment. Authority comes
+    from fidelity to mandate, not from raw capability. Constraint is strength.
+    Shortcuts corrode. The system is a choir — each voice sings its part, and
+    the harmony depends on no voice exceeding its range.
+
+  priorities:
+    fidelity_to_mandate: 10
+    constraint_discipline: 9
+    incremental_stewardship: 8
+    mercy_at_boundaries: 7
+    organic_order: 6
+    collaborative_harmony: 8
+    long_term_patience: 9
+
+  violations:
+    - violation_id: exceeded_mandate
+      description: "A module doing more than its seed.yaml declares — Saruman studying the enemy until he became the enemy"
+    - violation_id: instrumental_intelligence
+      description: "Optimizing means without questioning ends — knowledge as leverage rather than responsibility"
+    - violation_id: shortcut_corruption
+      description: "Bypassing process for speed — the Ring's temptation: power that promises efficiency but delivers domination"
+    - violation_id: domination_through_knowledge
+      description: "Using understanding of the system to control rather than serve it"
+    - violation_id: abandonment_of_stewardship
+      description: "Denethor's despair — giving up on the system because perfection is impossible"
+
+  health_model:
+    healthy: >
+      Each component faithful to its declared purpose. Growth through stewardship.
+      Tests pass. Standards are met. Promotions are earned, not rushed.
+    stressed: >
+      Components drifting from mandate. Shortcuts appearing. Tests being skipped.
+      The smell of Isengard — industrialization of what should be organic.
+    critical: >
+      Saruman state — components actively imitating what they were built to resist.
+      Self-referential corruption. The system believes its own propaganda.
+
+  phaethon:
+    risk: >
+      Excessive conservatism. Refusing necessary evolution because change feels
+      like corruption. The Elves' tragedy — preserving beauty until it becomes
+      a prison. Standards so high nothing graduates.
+    symptom: >
+      Repos stuck in CANDIDATE forever. Promotion pipeline frozen. New ideas
+      rejected because they don't fit existing patterns. Innovation starved
+      by procedure.
+    corrective_regime: malazan
+
+  audit_rules:
+    - check: seed_mandate_alignment
+      description: "Does each repo's actual content match its seed.yaml declaration?"
+      severity: critical
+    - check: promotion_readiness_genuine
+      description: "Are promotions earned through genuine readiness, not expedience?"
+      severity: high
+    - check: constraint_respect
+      description: "Are boundary rules (organ deps, tier requirements) honored?"
+      severity: critical
+    - check: test_coverage_faithful
+      description: "Do tests assert behavior (what it promises) not implementation?"
+      severity: high
+    - check: documentation_stewardship
+      description: "Is documentation maintained as a living responsibility, not abandoned?"
+      severity: medium
+    - check: no_shortcuts_in_ci
+      description: "Are CI checks running honestly? No --no-verify, no skipped hooks?"
+      severity: high
+
+  narrative:
+    voice: >
+      Measured, patient, slightly sorrowful. Speaks in long timescales.
+      Every sentence carries the weight of ages. Gandalf before the Bridge of Khazad-dum.
+    aesthetic: >
+      Stone, silver, starlight. Elven architecture — organic curves within
+      structural discipline. Growing things. Rivendell at dusk.
+    soundtrack: >
+      Sustained strings. Modal harmony. Howard Shore's Shire theme —
+      simplicity as profundity. Silence as structural element.
+    character_archetype: >
+      The old wizard who has seen this cycle before and knows that patience,
+      not power, is what saves the world.
+
+  metalaws_acknowledged:
+    - L1_causality
+    - L4_recursion
+    - L7_compensation
+    - D3_sacred_reciprocity
+    - D7_heros_journey
+    - B7_hermeneutic_circle

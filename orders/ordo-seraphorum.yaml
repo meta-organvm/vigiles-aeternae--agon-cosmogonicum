@@ -1,0 +1,59 @@
+order:
+  number: III
+  name: The Seraphim
+  latin: Ordo Seraphorum
+  symbol: "⛨"
+
+  domain: Active protection — guarding core truths, the firewall function
+  power: >
+    Preserve what must not be corrupted. Do not create or predict — hold the line.
+    Strength is refusal: refusal to let standards decay, entropy win, compromise creep.
+  constraint: >
+    Guardians who expand their mandate beyond protection become oppressors.
+    Jacob's flaw in Lost — choosing candidates without consent. Aes Sedai arrogance.
+  failure_mode: >
+    Ossification. Protecting the letter of the law until the spirit dies.
+    Guarding a door that no longer leads anywhere.
+
+  rpg:
+    class: Paladins
+    combat: 6
+    creation: 0
+    perception: 4
+    defense: 10
+    replication: 0
+    description: High defense, moderate enforcement, bound by oaths. Cannot initiate — only respond to threats.
+
+  system_functions:
+    - governance audit
+    - structural integrity audits (SOP--structural-integrity-audit)
+    - CI enforcement (the Descent Protocol)
+    - branch protection
+    - data integrity guards (registry write protection)
+    - security and accessibility audit
+
+  mythological_sources:
+    - name: Seraph
+      tradition: Matrix
+      role: Guardian protocol of truth and legacy — firewall and trusted passage agent
+    - name: Jacob
+      tradition: Lost
+      role: Custodial power — structures conditions, cannot compel choices
+    - name: Galadriel
+      tradition: Tolkien
+      role: Preservation without stasis — curated pocket of time resisting decay
+    - name: Elrond
+      tradition: Tolkien
+      role: Keeper of Rivendell — the last homely house as sanctuary
+    - name: Athena
+      tradition: Greek
+      role: Strategic guardian — wisdom in defense, not aggression
+    - name: The Fireman
+      tradition: Lynch (Twin Peaks)
+      role: Regulator who rarely intervenes directly — constraint, timing, symbolic correction
+
+  narrative:
+    voice: Steady, immovable, slightly sorrowful. The weight of holding.
+    aesthetic: Burnished metal. Ancient stone. Light through stained glass.
+    soundtrack: Low brass. Sustained pedal tones. Gregorian chant intervals.
+    character_archetype: The knight who has held the gate so long she has become the gate.

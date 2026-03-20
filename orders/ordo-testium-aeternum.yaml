@@ -1,0 +1,66 @@
+order:
+  number: VI
+  name: The Witnesses
+  latin: Ordo Testium Aeternum
+  symbol: "◎"
+
+  domain: Immutable recording — append-only truth, the event log that cannot be edited
+  power: >
+    See everything and record faithfully. Their records are the ground truth
+    against which all other Orders' claims are tested. Cannot be corrupted
+    because they cannot act — only observe and inscribe.
+  constraint: >
+    Witnesses who intervene lose their authority as neutral observers. Uatu's
+    great failing in Marvel — breaking the oath of non-interference. The moment
+    a Witness acts, its records become suspect.
+  failure_mode: >
+    Completeness paralysis — recording everything with equal weight until signal
+    drowns in noise. Or the opposite: selective recording that becomes propaganda.
+
+  rpg:
+    class: Scribes
+    combat: 0
+    creation: 0
+    perception: 8
+    defense: 0
+    replication: 0
+    description: >
+      Zero combat, zero influence. But their records are INDESTRUCTIBLE and
+      ADMISSIBLE. The only Order whose output is trusted by all other Orders
+      unconditionally.
+
+  system_functions:
+    - ontologia events (append-only event log)
+    - claims.jsonl (multi-agent coordination log)
+    - session transcripts (immutable session records)
+    - git history (the ultimate witness)
+    - the Chronicle of the Agon (Colosseum cycle records)
+    - append-only audit trails
+
+  mythological_sources:
+    - name: Uatu the Watcher
+      tradition: Marvel
+      role: Cosmic observer sworn to non-interference — records all, acts never
+    - name: The Watchers (race)
+      tradition: Marvel
+      role: Ancient race that observes all realities — collective witness
+    - name: Poneglyphs
+      tradition: One Piece
+      role: Indestructible stone-encoded memory — truth that survives all regimes
+    - name: Environmental responsiveness
+      tradition: Tolkien
+      role: The world itself records events — a red dawn means blood was spilled
+    - name: The Hotel world
+      tradition: The Leftovers
+      role: Bureaucratic afterlife that records and processes — not judges, just files
+    - name: Cooper's tape recorder
+      tradition: Lynch (Twin Peaks)
+      role: "Diane, I'm holding in my hand..." — continuous narration as witness practice
+
+  narrative:
+    voice: Flat, factual, without judgment. The court reporter. The black box.
+    aesthetic: Stone tablets. Film grain. Magnetic tape. Archival sepia.
+    soundtrack: >
+      Field recordings. Room tone. The hum of recording equipment.
+      Silence punctuated by the scratch of inscription.
+    character_archetype: The scribe who has recorded every war and never raised a sword.

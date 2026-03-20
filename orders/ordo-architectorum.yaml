@@ -1,0 +1,58 @@
+order:
+  number: I
+  name: The Architects
+  latin: Ordo Architectorum
+  symbol: "△"
+
+  domain: Design law — what structures must exist before anything is built
+  power: >
+    Define what IS. Schemas, naming conventions, directory structures,
+    immutable creation standards. They declare the rules of reality.
+  constraint: >
+    Cannot enforce their own designs. Architects who enforce become tyrants
+    (Saruman's failure mode). Law must be executed by other Orders.
+  failure_mode: >
+    Over-specification. A world so perfectly designed that nothing can live
+    in it. The crystal too rigid to survive vibration.
+
+  rpg:
+    class: World-builders
+    combat: 0
+    creation: 10
+    perception: 5
+    defense: 3
+    replication: 0
+    description: High creation power, zero combat. They shape environments, not outcomes.
+
+  system_functions:
+    - schema validation (organvm-validate)
+    - structural standards (CONSTITUTION-- documents)
+    - genesis-dna enforcement (SOP--genesis-dna)
+    - naming conventions (SOP--ontological-renaming)
+    - directory taxonomy standards
+
+  mythological_sources:
+    - name: The Architect
+      tradition: Matrix
+      role: System designer, source code constructor
+    - name: Eru Iluvatar
+      tradition: Tolkien
+      role: Creator who sings reality into being through delegated authority
+    - name: Aule
+      tradition: Tolkien
+      role: Smith-Vala who creates but must not dominate his creations
+    - name: Crystal-Source creators
+      tradition: Final Fantasy
+      role: World-battery architects, reality's root-of-trust
+    - name: Golden Goddesses (Din, Nayru, Farore)
+      tradition: Zelda
+      role: Triadic creators who leave the Triforce as governance artifact
+    - name: The Pattern
+      tradition: Wheel of Time
+      role: The loom of reality that weaves all threads
+
+  narrative:
+    voice: Precise, measured, architectural. Speaks in blueprints and axioms.
+    aesthetic: Clean geometry. Stone and light. Crystalline structures.
+    soundtrack: Sustained organ tones. Perfect intervals. Cathedral reverb.
+    character_archetype: The master builder who never lifts a hammer.

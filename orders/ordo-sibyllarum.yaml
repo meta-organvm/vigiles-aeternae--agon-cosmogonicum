@@ -1,0 +1,59 @@
+order:
+  number: II
+  name: The Oracles
+  latin: Ordo Sibyllarum
+  symbol: "◉"
+
+  domain: Predictive monitoring — pressure cartography, sensing where the system will break
+  power: >
+    Read system state and forecast. Not prophecy (deterministic) but
+    pressure mapping — where will it rupture if current trajectories continue?
+  constraint: >
+    Must report, not intervene. Oracles who act on their own visions become
+    self-fulfilling catastrophes. The Oracle in the Matrix baked cookies — she didn't fight.
+  failure_mode: >
+    Cassandra syndrome — seeing everything, believed by no one. Or worse:
+    paralysis by branching possibilities. Seeing so many futures that none can be chosen.
+
+  rpg:
+    class: Seers
+    combat: 0
+    creation: 2
+    perception: 10
+    defense: 1
+    replication: 0
+    description: High perception, moderate influence through information, zero direct power. They see the Deck.
+
+  system_functions:
+    - organvm omega status
+    - organvm organism (Living Data Organism)
+    - metrics forecasting
+    - pressure-point detection
+    - soak monitoring
+    - CI health triage
+
+  mythological_sources:
+    - name: The Oracle
+      tradition: Matrix
+      role: Emotion-infused anomaly interpreter who guides without controlling
+    - name: Deck of Dragons readers
+      tradition: Malazan
+      role: Read the living map of power relations — dangerous, never deterministic
+    - name: Legolas
+      tradition: Tolkien
+      role: Environmental sensor — reads residual imprint in dawn light and star deviation
+    - name: Nayru / Wisdom holders
+      tradition: Zelda
+      role: Bearers of the Triforce of Wisdom — strategic equilibrium through foresight
+    - name: Aes Sedai Foretelling
+      tradition: Wheel of Time
+      role: Involuntary prophetic visions — true but always misinterpreted
+    - name: The Numbers (4, 8, 15, 16, 23, 42)
+      tradition: Lost
+      role: Recurring pattern that implies structure without explaining it
+
+  narrative:
+    voice: Oblique, layered, never direct. Speaks in questions and implications.
+    aesthetic: Smoke, mirrors, water surfaces. Shifting light. Tarot imagery.
+    soundtrack: Prepared piano. Spectral processing. Ambiguous tonality.
+    character_archetype: The seer who knows more than she says and says less than she knows.
