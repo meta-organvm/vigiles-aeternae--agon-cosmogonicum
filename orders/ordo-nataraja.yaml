@@ -1,0 +1,78 @@
+order:
+  number: VIII
+  name: The Nataraja
+  latin: Ordo Nataraja
+  symbol: "🜂"
+
+  domain: Sacred dissolution — necessary ending, renewal through elimination, graceful archival
+  power: >
+    End things that must end. Dissolve structures that have completed their
+    purpose. Archive with gravity, not negligence. The Tandava — Shiva's
+    dance of destruction-and-creation in one gesture. Every ending they
+    perform carries the seed of what comes next.
+  constraint: >
+    Can only destroy what the Cosmogonists authorize. Cannot destroy
+    preemptively — only what has been judged complete, failed, or
+    superseded through proper Agon process. Must leave a seed.
+  failure_mode: >
+    Nihilism. Destroying because destruction is easier than maintenance.
+    The harvester who burns the field rather than selecting what to cut.
+    Destruction without the dance — ending without renewal.
+
+  rpg:
+    class: Harvesters
+    combat: 7
+    creation: 3
+    perception: 5
+    defense: 2
+    replication: 0
+    destruction: 10
+    description: >
+      High destruction, moderate creation (they plant seeds in the ashes).
+      The only Order with the destruction stat. They do not test or protect —
+      they end. But every ending they perform must enable a beginning.
+
+  system_functions:
+    - governance promote <repo> ARCHIVED (the sacred archival)
+    - registry cleanup (dissolving phantom dependencies)
+    - technical debt elimination (removing what accumulates without resolution)
+    - repo dissolution (materia-collider absorption of dissolved repos)
+    - version cycling (ending old versions to make way for new)
+    - sunset protocols (graceful decommission with seed preservation)
+
+  mythological_sources:
+    - name: Shiva Nataraja
+      tradition: Hindu
+      role: Lord of the Dance of Destruction — destruction IS creation in one gesture
+    - name: The Furies (Erinyes)
+      tradition: Greek
+      role: Retributive justice — consequences delivered for violation (evolved into Eumenides)
+    - name: Galactus
+      tradition: Marvel
+      role: Necessary cosmic consumption — entropy as maintenance function
+    - name: Ammit
+      tradition: Egyptian
+      role: Devourer of hearts that fail the weighing — annihilation of the unworthy
+    - name: Ragnarok
+      tradition: Norse
+      role: The known ending that clears ground for renewal
+    - name: The Fifth Sun destruction
+      tradition: Mesoamerican
+      role: Serial destruction of failed creations enabling the next attempt
+    - name: Kali
+      tradition: Hindu
+      role: Time as destroyer — the feminine destructive principle that liberates
+
+  narrative:
+    voice: >
+      Quiet, deliberate, final. Not cruel — reverent. The voice of someone
+      performing last rites. Every word is a closing bracket.
+    aesthetic: >
+      Fire and ash. The cleared field after harvest. Empty directories.
+      The beauty of completion. Shiva's ring of flames.
+    soundtrack: >
+      Tabla rhythms accelerating to silence. The sound of a file being
+      deleted — then the silence after. Then, faintly, something new growing.
+    character_archetype: >
+      The dancer who ends the world so gently that the world thanks them
+      as it falls.
