@@ -287,6 +287,53 @@ def check_knowledge_distribution(rule: AuditRule, registry: dict, **_kwargs) -> 
     return findings
 
 
+@register_check("irf_completion_rate")
+def check_irf_completion_rate(
+    rule: AuditRule, workspace: Path, **_kwargs
+) -> list[Finding]:
+    """Report on IRF completion rates and flag open P0 items."""
+    import re
+    irf_path = workspace / "meta-organvm" / "organvm-corpvs-testamentvm" / "INST-INDEX-RERUM-FACIENDARUM.md"
+    if not irf_path.exists():
+        return [Finding(rule_check=rule.check, severity="high", target="system",
+                       description="INST-INDEX-RERUM-FACIENDARUM.md not found", regime="")]
+
+    text = irf_path.read_text(encoding="utf-8")
+    in_completed = False
+    open_by_priority: dict[str, int] = {"P0": 0, "P1": 0, "P2": 0, "P3": 0}
+    completed_count = 0
+
+    for line in text.splitlines():
+        if line.startswith("## Completed") or line.startswith("## Blocked") or line.startswith("## Archived"):
+            in_completed = True
+        elif line.startswith("## "):
+            in_completed = False
+        m = re.search(r"\|\s*IRF-[A-Z]+-\d+\s*\|", line)
+        if m:
+            if in_completed:
+                completed_count += 1
+            else:
+                pm = re.search(r"\|\s*(P[0-3])\s*\|", line)
+                if pm:
+                    open_by_priority[pm.group(1)] = open_by_priority.get(pm.group(1), 0) + 1
+        if re.search(r"\|\s*DONE-\d+\s*\|", line) and in_completed:
+            completed_count += 1
+
+    total = sum(open_by_priority.values()) + completed_count
+    rate = (completed_count / total * 100) if total else 0
+    findings: list[Finding] = []
+
+    if open_by_priority["P0"] > 0:
+        findings.append(Finding(rule_check=rule.check, severity="critical", target="system",
+                               description=f"{open_by_priority['P0']} P0 IRF items still open — immediate action required",
+                               regime="", details={"open_p0": open_by_priority["P0"], "completion_rate": round(rate, 1)}))
+    if rate < 20 and total > 10:
+        findings.append(Finding(rule_check=rule.check, severity=rule.severity, target="system",
+                               description=f"IRF completion rate {rate:.1f}% ({completed_count}/{total})",
+                               regime="", details={"by_priority": open_by_priority}))
+    return findings
+
+
 # ──────────────────────────────────────────────────────────────
 # The Auditor — runs a regime's rules against system state
 # ──────────────────────────────────────────────────────────────
