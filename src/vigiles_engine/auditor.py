@@ -67,8 +67,21 @@ def register_check(check_id: str):
 # ──────────────────────────────────────────────────────────────
 
 
+# ISOTOPE DISSOLUTION: Gate immune--watch G2 (REGISTRY_IMPORT_CANONICAL)
+try:
+    from organvm_engine.registry.loader import load_registry as _engine_load
+except ImportError:
+    _engine_load = None
+
+
 def _load_registry(registry_path: Path) -> dict:
-    """Load the ORGANVM registry."""
+    """Load the ORGANVM registry.
+
+    Delegates to organvm-engine's canonical loader when available,
+    falling back to direct JSON read for standalone operation.
+    """
+    if _engine_load is not None:
+        return _engine_load(registry_path)
     with open(registry_path) as f:
         return json.load(f)
 
