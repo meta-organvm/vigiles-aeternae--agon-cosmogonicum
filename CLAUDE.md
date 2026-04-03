@@ -211,7 +211,7 @@ vigiles colosseum consensus
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-03-25T22:27:22Z*
+*Last synced: 2026-04-03T15:19:56Z*
 
 ## Session Review Protocol
 
@@ -234,6 +234,11 @@ Transcripts are on-demand (never committed):
 | organ | any | commit-and-release-workflow | Commit & Release Workflow |
 | organ | any | session-state-management | session-state-management |
 | organ | any | submodule-sync-protocol | submodule-sync-protocol |
+| system | any | atomic-clock | The Atomic Clock |
+| system | any | execution-sequence | Execution Sequence |
+| system | any | multi-agent-dispatch | Multi-Agent Dispatch |
+| system | any | session-handoff-avalanche | Session Handoff Avalanche |
+| system | any | system-loops | System Loops |
 | system | any | prompting-standards | Prompting Standards |
 | system | any | research-standards-bibliography | APPENDIX: Research Standards Bibliography |
 | system | any | phase-closing-and-forward-plan | METADOC: Phase-Closing Commemoration & Forward Attack Plan |
@@ -292,6 +297,7 @@ Transcripts are on-demand (never committed):
 | unknown | any | ira-grade-norming | SOP: Diagnostic Inter-Rater Agreement (IRA) Grade Norming |
 | unknown | any | ira-grade-norming | ira-grade-norming |
 | unknown | any | pitch-deck-rollout | SOP: Pitch Deck Generation & Rollout |
+| unknown | any | SOP-GENESIS-TEMPLATE | SOP: Genesis Template (SPEC-023) |
 | unknown | any | SOP-TRIADIC-REVIEW-PROTOCOL | Triadic Review Protocol (TRP) |
 
 Linked skills: api-design-patterns, cicd-resilience-and-recovery, coding-standards-enforcer, continuous-learning-agent, contract-risk-analyzer, cross-agent-handoff, evaluation-to-growth, gdpr-compliance-check, genesis-dna, multi-agent-workforce-planner, planning-and-roadmapping, promotion-and-state-transitions, quality-gate-baseline-calibration, repo-onboarding-and-habitat-creation, security-threat-modeler, session-self-critique, structural-integrity-audit
@@ -307,42 +313,11 @@ Linked skills: api-design-patterns, cicd-resilience-and-recovery, coding-standar
 Convergences: 20 | Run: `organvm network map --repo vigiles-aeternae--agon-cosmogonicum` | `organvm network suggest`
 
 
-## Entity Identity (Ontologia)
-
-**UID:** `ent_repo_01KM4TAN78RKP979917MGVSRQQ` | **Matched by:** primary_name
-
-Resolve: `organvm ontologia resolve vigiles-aeternae--agon-cosmogonicum` | History: `organvm ontologia history ent_repo_01KM4TAN78RKP979917MGVSRQQ`
-
-
-## Live System Variables (Ontologia)
-
-| Variable | Value | Scope | Updated |
-|----------|-------|-------|---------|
-| `active_repos` | 64 | global | 2026-03-25 |
-| `archived_repos` | 54 | global | 2026-03-25 |
-| `ci_workflows` | 106 | global | 2026-03-25 |
-| `code_files` | 0 | global | 2026-03-25 |
-| `dependency_edges` | 60 | global | 2026-03-25 |
-| `operational_organs` | 8 | global | 2026-03-25 |
-| `published_essays` | 29 | global | 2026-03-25 |
-| `repos_with_tests` | 0 | global | 2026-03-25 |
-| `sprints_completed` | 33 | global | 2026-03-25 |
-| `test_files` | 0 | global | 2026-03-25 |
-| `total_organs` | 8 | global | 2026-03-25 |
-| `total_repos` | 127 | global | 2026-03-25 |
-| `total_words_formatted` | 0 | global | 2026-03-25 |
-| `total_words_numeric` | 0 | global | 2026-03-25 |
-| `total_words_short` | 0K+ | global | 2026-03-25 |
-
-Metrics: 9 registered | Observations: 15536 recorded
-Resolve: `organvm ontologia status` | Refresh: `organvm refresh`
-
-
 ## System Density (auto-generated)
 
-AMMOI: 56% | Edges: 41 | Tensions: 33 | Clusters: 5 | Adv: 7 | Events(24h): 23754
-Structure: 8 organs / 127 repos / 1654 components (depth 17) | Inference: 98% | Organs: META-ORGANVM:64%, ORGAN-I:55%, ORGAN-II:47%, ORGAN-III:55% +4 more
-Last pulse: 2026-03-25T22:27:04 | Δ24h: +3.5% | Δ7d: n/a
+AMMOI: 56% | Edges: 41 | Tensions: 0 | Clusters: 0 | Adv: 12 | Events(24h): 27428
+Structure: 8 organs / 128 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:64%, ORGAN-I:55%, ORGAN-II:47%, ORGAN-III:55% +4 more
+Last pulse: 2026-04-03T15:19:54 | Δ24h: -0.0% | Δ7d: n/a
 
 
 ## Dialect Identity (Trivium)
@@ -353,4 +328,42 @@ Strongest translations: I (formal), IV (structural), V (analogical)
 
 Scan: `organvm trivium scan META <OTHER>` | Matrix: `organvm trivium matrix` | Synthesize: `organvm trivium synthesize`
 
+
+## Logos Documentation Layer
+
+**Status:** MISSING | **Symmetry:** 0.5 (GHOST)
+
+Nature demands a documentation counterpart. This formation maintains its narrative record in `docs/logos/`.
+
+### The Tetradic Counterpart
+- **[Telos (Idealized Form)](../docs/logos/telos.md)** — The dream and theoretical grounding.
+- **[Pragma (Concrete State)](../docs/logos/pragma.md)** — The honest account of what exists.
+- **[Praxis (Remediation Plan)](../docs/logos/praxis.md)** — The attack vectors for evolution.
+- **[Receptio (Reception)](../docs/logos/receptio.md)** — The account of the constructed polis.
+
+### Alchemical I/O
+- **[Source & Transmutation](../docs/logos/alchemical-io.md)** — Narrative of inputs, process, and returns.
+
+
+
+*Compliance: Implementation exists without record.*
+
 <!-- ORGANVM:AUTO:END -->
+
+## Active Handoff Protocol
+
+If `.conductor/active-handoff.md` exists, **READ IT FIRST** before doing any work.
+It contains constraints, locked files, conventions, and completed work from the
+originating agent. You MUST honor all constraints listed there.
+
+If the handoff says "CROSS-VERIFICATION REQUIRED", your self-assessment will
+NOT be trusted. A different agent will verify your output against these constraints.
+
+## Active Handoff Protocol
+
+If `.conductor/active-handoff.md` exists, **READ IT FIRST** before doing any work.
+It contains constraints, locked files, conventions, and completed work from the
+originating agent. You MUST honor all constraints listed there.
+
+If the handoff says "CROSS-VERIFICATION REQUIRED", your self-assessment will
+NOT be trusted. A different agent will verify your output against these constraints.
